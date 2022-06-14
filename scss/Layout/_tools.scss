@@ -1,0 +1,28 @@
+.tools{
+    // margin-top: 5rem;
+    background-color: rgb(245, 245, 245);
+    .tool {
+        background-color: $white;
+        text-align: center;
+        padding: 2rem;
+      &-icon{
+        text-align: center;
+
+        font-size: 4rem ;
+    }
+      &-function{
+        @include styleText($fz-18 , $fw-bold , $black);
+        margin: 1rem 0;
+    }
+      
+      
+    }
+    .tool:hover .tool-btn{
+        
+      background-color: $white;
+      color: $blue-100;
+      border: 1px solid $blue-100;
+    
+  }
+
+}

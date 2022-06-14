@@ -1,0 +1,90 @@
+
+.vehicles-carousel{
+    position: relative;
+    .vehicle{
+      img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+        background:  center/ cover no-repeat;
+        height: 630px;
+        // text-align: center;
+        &-order{
+            position: absolute;
+            top: 6%;
+            left: 7%;
+            font-weight: bold;
+        }
+          &-info{
+            position: absolute;
+            top: 45%;
+            left: 5%;
+            transform: translateY(-50%);
+            width: 70%;
+            padding: 2rem;
+        }
+          &-brand{
+            width: 100%;
+            svg{
+                width: 35%;
+                height: 100%;
+            }
+        }
+          &-desc{
+            margin: 2rem 0 1rem;
+            @include styleText($fz-14, 400 ,$white);
+            line-height: 1.6;
+            padding-bottom: 1.25rem ;
+            // margin-right: 2re;
+            width: 40%;
+            text-align: justify;
+        }
+          &-stats{
+            display: flex;
+            gap: 1.25rem;
+            // text-align: center;
+            @include styleText($fz-14, 400 ,$white);
+        }
+        
+        &-price,
+        &-cty{
+              @include styleText($fz-huge , 300 , $white);
+            
+        }
+          &-more{
+            display: flex;
+            gap: 0.5rem;
+            margin: 1rem 0;
+            // justify-content: center;
+            // align-items: center;
+            .btn-main{
+                margin: 0;
+                
+            }
+        }
+        &-relative{
+            position: absolute;
+            bottom: 2%;
+            left: 5%;
+            left: 0;
+            text-transform: uppercase;
+            width: 40%;
+            border-top: 1px solid rgba($color: #fff, $alpha: 0.5);
+            padding: 2rem 0 2rem 5%;
+            @include styleText($fz-16, 700 , $white);
+            // margin-right: 2rem;
+            &-img{
+                position: absolute;
+                top: 0.5rem;
+                // left: -1rem;
+                // left: 4rem;
+                width: 100%;
+                height: 80px;
+               background: url(../img/Vehicles/accord-family-vehicles-2x.webp) 100% 0/contain no-repeat;
+            //    background-position: ;  
+            }
+        }
+       
+    }
+}

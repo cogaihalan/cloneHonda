@@ -1,0 +1,15 @@
+@mixin styleText($size, $weight , $color){
+      font-size:  $size;
+      font-weight: $weight;
+      color: $color;  
+}
+@mixin styleButton($color  ,$backColor  ){
+      color: $color;
+      background-color: $backColor;
+      border: 1px solid $color;
+      &:hover{
+            color: $backColor;
+            background-color: $color;
+            border-color: $color;
+      }
+}

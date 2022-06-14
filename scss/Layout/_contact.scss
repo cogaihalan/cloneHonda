@@ -1,0 +1,86 @@
+.contact{
+    width: 100%;
+    .logo{
+        margin: 0 auto;
+        width: 95%;
+        padding: 0.5rem;
+        height: 100px;
+        border-top: 2px solid $blue-100;
+        position: relative;
+        &-honda{
+            text-align: center;
+            width: 100%;
+        }
+        .hondaSVG{
+            // margin-top: 0.5rem;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 130px;
+            height: 90px;
+        }
+        
+}
+&-content{
+    width: 95%;
+    margin: 1rem auto 0;
+    padding: 1.25rem 0;
+    border-top: 1px solid $blue-overlay; 
+    border-bottom: 1px solid $blue-overlay; 
+    .row{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+&-item{
+    height: 100%
+}
+&-heading{
+    @include styleText($fz-14 , 700 , $black);
+}
+&-socials{
+
+    margin-top: 0.75rem;
+    &-item{
+        margin-right: 0.5rem;
+    }
+}
+
+&-search{
+    position: relative;
+    i{
+        position: absolute;
+        top: 65%;
+        transform: translateY(-50%);
+        left: 5%;
+        color: $blue-100;
+    }
+    &__input{
+        outline: none;
+        border: 0;
+    border-radius: 2rem;
+    color: $blue-100;
+    font-size: $fz-14;
+    letter-spacing: 0;
+    height: 2.5rem;
+    margin-top: 0.75rem;
+    padding: 12px 0 9px 45px;
+    width: 100%;
+       &::placeholder{
+        @include styleText($fz-14 , $fw-bold , $blue-100)
+       } 
+       &:focus{
+        border: 1px solid $blue-100;
+       }
+    }
+}
+&-informed{
+    text-align: right;
+    &__btn{
+        font-size: $fz-14 !important;
+        margin: 0.75rem 0 0 auto !important;
+        padding: 0.35rem 1rem !important;
+    }
+}
+}

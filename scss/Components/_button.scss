@@ -1,0 +1,45 @@
+.btn-main{
+    display: block;
+    margin: 0 auto;
+    padding: 0.35rem 2.25rem;
+    margin-top: 1.25rem;
+    @include styleText($fz-16 , $fw-bold , $white);
+    background-color:  $blue-100;
+    border-radius: 1.5rem;
+    border: 1px solid $blue-100;
+    outline: none;
+    text-transform: uppercase;
+    &:hover{
+        background-color: $white;
+        color: $blue-100;
+    }
+}
+.btn-CTA--red{
+   @include styleButton($white , $orange)
+}
+.btn-CTA--white{
+    @include styleButton($orange , $white)
+}
+.btn-CTA--blueblack{
+    @include styleButton($white ,$blue-200);
+    &:hover{
+        color: $blue-200;
+        background-color: rgba($color: #000000, $alpha: 0.4);
+        border-color: currentColor;
+    }
+}
+.btn-CTA--bluewhite{
+    @include styleButton($white ,$blue-200);
+    &:hover{
+        border-color: currentColor;
+        border-width: 2px;
+    }
+}
+.btn-CTA--redwhite{
+    padding: 0.35rem 1.75rem;
+    @include styleButton($white , $red);
+    &:hover{
+        border-color: currentColor;
+    }
+
+}

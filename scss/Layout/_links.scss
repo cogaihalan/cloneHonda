@@ -1,0 +1,25 @@
+.links{
+    .links-content{
+        width: 95%;
+        margin: -3.5rem auto 0;
+        display: flex;
+        justify-content: space-between;
+        .link{
+            &-heading{
+                @include styleText($fz-14 , 700 , #00446b);
+                line-height: 1.4em;
+            }
+            &-item{
+                a{
+                    @include styleText($fz-12,$fw-regular , #00446b);
+                    line-height: 1.5;
+                    text-transform: capitalize;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+}

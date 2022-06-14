@@ -1,0 +1,125 @@
+.heading {
+    text-align: center;
+    @include styleText($fz-big , $fw-regular , $black);
+
+    &-desc {
+        text-align: center;
+        margin: 2rem 0 2.5rem;
+        @include styleText($fz-16 , $fw-regular , $black)
+    }
+}
+.wrapper{
+    margin-top: 3rem;
+}
+.owl-carousel.owl-theme {
+    .owl-dots {
+        position: absolute;
+        bottom: 0;
+        left: 2%;
+
+        .owl-dot.active {
+            span {
+
+                background-color: $blue-200;
+            }
+        }
+
+        .owl-dot {
+            span {
+                background-color: $grey;
+
+            }
+        }
+
+    }
+
+    .owl-nav {
+        margin-top: 0;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+
+        .owl-next,
+        .owl-prev {
+            position: absolute;
+            font-size: $fz-big;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1rem !important;
+            background-color: $grey;
+
+            &:hover {
+                color: $blue-200;
+            }
+        }
+
+        .owl-prev {
+            left: 0;
+        }
+
+        .owl-next {
+            right: 0;
+        }
+    }
+}
+
+
+
+#pills-tab {
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 2rem;
+
+    .nav-item {
+        // width: auto;
+        // height: auto;
+        position: relative;
+        border: none;
+        background: unset;
+       
+
+        .nav-link {
+            background-color: unset;
+            text-transform: uppercase;
+            @include styleText($fz-14 , 700, $black );
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 0;
+                height: 3px;
+                background-color: $blue-100 ;
+                display: block;
+                transition: all 0.3s ease-in-out;
+            }
+            &:hover {
+                color: $blue-100;
+                // opaciy: 1;
+            }
+        }
+        .nav-link.active{
+            color: $blue-100;
+            &::after{
+                width: 60%;
+                // margin: 0 auto
+            }
+        }
+    }
+
+   
+}
+#pills-tabContent{
+    .owl-carousel.owl-theme{
+        .disabled{
+            display: block;
+        }
+        .owl-dots{
+            right: 0;
+            bottom: 2%;
+        }
+    }
+}

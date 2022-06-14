@@ -1,0 +1,92 @@
+.showroom {
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    transform: translateY(-120%);
+    bottom: 0;
+    z-index: 100;
+    // padding-top: 3rem;
+    overflow: auto;
+    overflow-y: scroll;
+    transition: all 0.5s ease-in-out;
+    &-overlay{
+        position: absolute;
+  }
+    &__nav{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding: 1rem 0;
+        background-color: $white;
+        // position: fixed;
+        // top: 1rem;
+        // left: 50%;
+        width: 100%;
+        // transform: translate(-50%);
+        z-index: 101;
+  }
+    &__nav-item{
+        &:hover a{
+            color: $blue-100;
+        }
+        a{
+            @include styleText($fz-14 , 700 , $black);
+        }
+        .active{
+            color: $blue-100;
+        }
+  }
+    &-list{
+        background-color: #f6f6f6;
+        // margin-top: 4rem;
+        // position: fixed;
+  }
+    &-item{
+  
+  }  
+    &-item-type{
+        display: block;
+        padding: 0.5rem 2.5rem 0;
+        @include styleText($fz-14, $fw-bold , $black);
+        &:hover{
+            opacity: 0.5;
+        }
+  }
+    &-vehicles{
+        padding: 0.5rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(5 ,1fr);
+        gap: 1rem;
+        .card{
+            padding: 1rem;
+        }
+        .card-body{
+            text-align: left;
+        }
+        .card-title{
+            font-weight: 700;
+            margin: 0.5rem 0 ; 
+        }
+        .card-text{
+            span{
+                @include styleText($fz-14 , $fw-bold , $black);
+                margin-right: 1rem;
+            }
+            @include styleText(0.5rem, $fw-regular , $black);
+        }
+  }
+    &-actions{
+        display: flex;
+        .btn-main{
+            @include styleText($fz-12 , $fw-bold ,$white);
+            padding: 0.35rem 1.5rem;
+            margin-top: 1rem;
+        }
+    
+  }
+
+  }
+  .slideIn{
+    transform: translateY(0);
+}

@@ -1,0 +1,41 @@
+//------COLOR---------------
+$white: #fff;
+$dark-white: #ffffffe6;
+$blue-100: #007cc3;
+$blue-200: #2198dc;
+$dark-blue-100: #00446a;
+$dark-blue-200: #00324f;
+$orange: #ff4040;
+$red: #e42525;
+$black: #000;
+$blue-overlay: rgba(0, 67, 108, .8);
+$grey: #f5f5f5;
+
+
+// Font Size
+$fz-big: 40px;
+$fz-html: 16px;
+$fz-14: 14px;
+$fz-16 :16px;
+$fz-18: 18px;
+$fz-20:20px;
+$fz-12: 12px;
+$fz-heading : 32px;
+$fz-subheading : 24px;
+$fz-huge: 48px;
+
+// Font Weight 
+$fw-thin : 300;
+$fw-regular : 400;
+$fw-bold: 700;
+$fw-semibold: 600;
+
+// Breakpoints 
+
+
+$breakpoints: (
+    "extra-large": 1200px,
+    "large": 992px,
+    "medium": 768px,
+    "small": 576px,
+);
