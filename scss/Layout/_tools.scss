@@ -4,25 +4,24 @@
     .tool {
         background-color: $white;
         text-align: center;
-        padding: 2rem;
+        padding: 1.5rem 1.5rem 1rem;
       &-icon{
         text-align: center;
-
         font-size: 4rem ;
     }
       &-function{
-        @include styleText($fz-18 , $fw-bold , $black);
+        @include styleText($fz-18 , 400 , $black);
         margin: 1rem 0;
     }
       
       
     }
-    .tool:hover .tool-btn{
+    .tool:hover .tool-btn{ 
         
       background-color: $white;
       color: $blue-100;
       border: 1px solid $blue-100;
-    
-  }
+    }
+  
 
 }

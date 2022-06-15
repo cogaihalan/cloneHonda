@@ -32,14 +32,48 @@
 
     }
     &-brand{
-        &:active{
-            border: 2px solid $blue-100;
-        }
         svg{
             width: 110px;
             height: 90px;
             fill: $white;
         }
     }
-
+    @include responsive("large"){
+        &-content{
+            font-size: $fz-14;
+        }
+        &-policy{
+            justify-content: center;
+         
+         }
+        &-brands{
+            gap: 1rem;
+        }
+        &-brand{
+            svg{
+                width: 80px;
+                height: 90px;
+            }
+        }
+    }
+    @include responsive("medium"){
+        &-content{
+            font-size: $fz-12;
+        }
+        &-copyright{
+            text-align: center;
+            
+        }
+       
+        &-brands{
+            justify-content: center;
+            margin: 1.5rem 0 ;
+        }
+        &-brand{
+            display: none;
+        }
+        &-brand:first-child{
+            display: block;
+        }
+    }
 }

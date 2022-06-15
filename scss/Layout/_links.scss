@@ -8,16 +8,36 @@
             &-heading{
                 @include styleText($fz-14 , 700 , #00446b);
                 line-height: 1.4em;
+                i{  position: absolute;
+                    right: 8%;
+                    width: 20px;
+                    font-size: $fz-12;
+                    height: 20px;
+                    color: $blue-100;
+                    line-height: 20px;
+                    border-radius: 50%;
+                    border: 1px solid $blue-200;
+                    text-align: center
+                }
             }
             &-item{
                 a{
-                    @include styleText($fz-12,$fw-regular , #00446b);
+                    @include styleText($fz-14,$fw-regular , #00446b);
                     line-height: 1.5;
                     text-transform: capitalize;
                     &:hover{
                         text-decoration: underline;
                     }
                 }
+            }
+        }
+        @include responsive("large"){
+            width: 90%;
+            flex-direction: column;
+            gap: 1rem;
+            .link{
+
+                border-bottom: 1px solid rgb(97, 91, 91);
             }
         }
     }

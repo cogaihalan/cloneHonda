@@ -11,6 +11,30 @@
 .wrapper{
     margin-top: 3rem;
 }
+.ml-auto{
+    margin-left: auto;
+    @include responsive("medium"){
+        margin-left: unset;
+    }
+}
+.order--1{
+    order: unset;
+    @include responsive("medium"){
+        order: 1;
+    }
+}
+.order--2{
+    order: unset;
+    @include responsive("medium"){
+        order: 2;
+    }
+}
+.order--3{
+    order: unset;
+    @include responsive("extra-large"){
+        order: 3;
+    }
+}
 .owl-carousel.owl-theme {
     .owl-dots {
         position: absolute;
@@ -69,21 +93,35 @@
 #pills-tab {
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
-    gap: 2rem;
+    margin: 1rem ;
+    flex-wrap: nowrap;
+    overflow: auto;
 
+    gap: 1rem;
+    @include responsive("medium"){
+        justify-content: unset;
+        // gap: 1.5rem;
+    }
     .nav-item {
         // width: auto;
         // height: auto;
         position: relative;
         border: none;
         background: unset;
-       
+       @include responsive("medium"){
+        // margin: 0 1rem;
+        // padding: 0;
+       }
 
         .nav-link {
             background-color: unset;
             text-transform: uppercase;
             @include styleText($fz-14 , 700, $black );
+            @include responsive("medium"){
+                font-size: $fz-12 ;
+                font-weight: 600;
+                // padding: 0;
+            }
             &::after {
                 content: "";
                 position: absolute;

@@ -15,6 +15,15 @@
 // callAPI().then(data=>{
 //     console.log(data)
 // })
-    document.querySelector(".js-showroom").onclick=()=>{
-           document.querySelector("#_showroom").classList.toggle("slideIn") 
-    }
+// document.querySelector(".js-showroom").onclick = () => {
+//        document.querySelector("#_showroom").classList.toggle("slideIn")
+// }
+
+// if (window.innerWidth >= 768) {
+//        document.querySelectorAll(".link-list").forEach(item => item.classList.add("collapse"))
+
+// } else {
+//        document.querySelectorAll(".link-list").forEach(item => item.classList.remove("collapse"))
+
+//        // document.querySelectorAll(".link-list").classList.remove("collapse")
+// }

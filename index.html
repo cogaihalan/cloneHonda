@@ -40,7 +40,7 @@
     <nav class="navbar navbar-expand-lg navigation">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="./imgs/logo.png" alt="">
+          <img src="./img/logo.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header_navbar"
           aria-controls="header_navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -289,14 +289,15 @@
     </nav>
 
 
-  <section class=" hero">
+  <section class=" hero ">
     <div class="hero-content">
 
       <div class="owl-carousel  hero-carousel owl-theme">
 
         <div class="item hero-info">
           <div class="hero-img">
-            <img src="./img/MY23-HR-V-non-VLP-homepage-hero-1400-2x.webp" class="" alt="" />
+            <img src="./img/MY23-HR-V-non-VLP-homepage-hero-1400-2x.webp" class="d-none d-md-block" alt="" />
+            <img src="./img/hero/res-1.webp" class="d-md-none d-block"alt="">
           </div>
           <div class="hero-desc">
             <p class="hero-name">
@@ -312,12 +313,13 @@
         </div>
         <div class="item hero-info">
           <div class="hero-img">
-            <img src="./img/2022-EPA-homepage-hero-1400-2x.webp" class="" alt="" />
+            <img src="./img/2022-EPA-homepage-hero-1400-2x.webp" class="d-none d-md-block" alt="" />
+            <img src="./img/hero/res-2.webp" class="d-md-none d-block"alt="">
           </div>
           <div class="hero-desc">
             <p class="hero-name">
 
-              The SUV that's just as smart as it looks.
+              Honda is proud to be the most fuel-efficient full-line automaker in America.
 
             </p>
             <button class="btn-main btn-CTA--red">
@@ -328,12 +330,13 @@
         </div>
         <div class="item hero-info">
           <div class="hero-img">
-            <img src="./img/MY23-Odyssey-non-VLP-homepage-hero-1400-2x.webp" class="" alt="" />
+            <img src="./img/MY23-Odyssey-non-VLP-homepage-hero-1400-2x.webp" class="d-none d-md-block" alt="" />
+            <img src="./img/hero/res-3.webp" class="d-md-none d-block"alt="">
           </div>
           <div class="hero-desc">
             <p class="hero-name">
 
-              The SUV that's just as smart as it looks.
+              Make the journey as fun as the destination.
 
             </p>
             <button class="btn-main btn-CTA--red">
@@ -344,12 +347,13 @@
         </div>
         <div class="item hero-info">
           <div class="hero-img">
-            <img src="./img/2022-rugged-staddington-homepage-hero-1400-2x.webp" class="" alt="" />
+            <img src="./img/2022-rugged-staddington-homepage-hero-1400-2x.webp" class="d-none d-md-block" alt="" />
+            <img src="./img/hero/res-4.jpeg" class="d-md-none d-block"alt="">
           </div>
           <div class="hero-desc">
             <p class="hero-name">
 
-              The SUV that's just as smart as it looks.
+              Discover just how tough a Honda can be.
 
             </p>
             <button class="btn-main btn-CTA--red">
@@ -361,7 +365,7 @@
       </div>
     </div>
   </section>
-  <section class="section intro intro-first">
+  <section class="section intro intro-first ">
     <div class="container intro-content">
       <div class="row">
         <div class="col-12 col-md-6">
@@ -388,7 +392,7 @@
     </div>
     </div>
   </section>
-  <section class="section vehicles">
+  <section class="section vehicles ">
     <h3 class="heading">
       OUR Vehicles
     </h3>
@@ -409,13 +413,22 @@
         <button class="nav-link" id="pills-electrified-tab" data-bs-toggle="pill" data-bs-target="#pills-electrified"
           type="button" role="tab" aria-controls="pills-electrified" aria-selected="false">electrified</button>
       </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-owned-tab" data-bs-toggle="pill" data-bs-target="#pills-owned"
+          type="button" role="tab" aria-controls="pills-owned" aria-selected="false">Pre-Owned</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-future-tab" data-bs-toggle="pill" data-bs-target="#pills-future"
+          type="button" role="tab" aria-controls="pills-future" aria-selected="false">FUTURE</button>
+      </li>
     </ul>
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-cars" role="tabpanel" aria-labelledby="pills-cars-tab"
         tabindex="0">
         <div class="owl-carousel vehicles-carousel owl-theme">
           <div class="item vehicle active">
-            <img src="./img/Vehicles/MY21-accord-hybrid-homepage-full-line-1400-2x.jpeg" class="img-fluid" alt="">
+            <img src="./img/Vehicles/MY21-accord-hybrid-homepage-full-line-1400-2x.jpeg" class="img-fluid d-none d-md-block" alt="">
+            <img src="./img/Vehicles/car1-res.webp" class="d-block d-md-none" alt="">
             <p class="vehicle-order">
               <span data-vehicle-type="cars">CARS</span>
               <span data-vehicle-current="1">1</span>
@@ -542,7 +555,9 @@
 
           </div>
           <div class="item vehicle active">
-            <img src="./img/Vehicles/MY21-accord-homepage-full-line-1400-2x.webp" class="img-fluid" alt="">
+            <img src="./img/Vehicles/MY21-accord-homepage-full-line-1400-2x.webp" class="img-fluid d-none d-md-block" alt="">
+            <img src="./img/Vehicles/car2-res.jpeg" class="d-block d-md-none" alt="">
+            
             <p class="vehicle-order">
               <span data-vehicle-type="cars">CARS</span>
               <span data-vehicle-current="2">2</span>
@@ -661,7 +676,7 @@
       <div class="tab-pane fade" id="pills-trucks" role="tabpanel" aria-labelledby="pills-trucks-tab" tabindex="0">
         <div class="owl-carousel vehicles-carousel owl-theme">
           <div class="item vehicle active">
-            <img src="./img/Vehicles/truck1.webp" class="img-fluid" alt="">
+            <img src="./img/Vehicles/truck1.webp" class="img-fluid d-none d-md-block" alt="">
             <p class="vehicle-order">
               <span data-vehicle-type="trucks">MINIVAN & TRUCK</span>
               <span data-vehicle-current="1">1</span>
@@ -761,7 +776,7 @@
    -->
           </div>
           <div class="item vehicle active">
-            <img src="./img/Vehicles/truck2.webp" class="img-fluid" alt="">
+            <img src="./img/Vehicles/truck2.webp" class="img-fluid d-none d-md-block" alt="">
             <p class="vehicle-order">
               <span data-vehicle-type="truck">MINIVAN & TRUCK</span>
               <span data-vehicle-current="2">2</span>
@@ -846,11 +861,6 @@
 
               </div>
             </div>
-            <!-- <a href="" class="vehicle-relative">
-              <span>Explore the accord family</span>
-              <i class="fa fa-arrow-right"></i>
-              <div class="vehicle-relative-img"></div>
-            </a> -->
 
           </div>
         </div>
@@ -865,7 +875,7 @@
   <section class="section tools">
     <div class="container">
       <div class="row">
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-3 mb-3 mb-md-0">
 
           <div class="tool">
             <div class="tool-icon">
@@ -879,42 +889,42 @@
             </button>
           </div>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-3 mb-3 mb-md-0">
 
           <div class="tool">
             <div class="tool-icon">
               <i class="fa fa-sticky-note"></i>
             </div>
             <p class="tool-function">
-              Build and Price
+              See Offers
             </p>
             <button class="btn-main btn-CTA--blue tool-btn">
               GO
             </button>
           </div>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-3 mb-3 mb-md-0">
 
           <div class="tool">
             <div class="tool-icon">
               <i class="fa fa-search"></i>
             </div>
             <p class="tool-function">
-              Build and Price
+              Search Inventory
             </p>
             <button class="btn-main btn-CTA--blue tool-btn">
               GO
             </button>
           </div>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-3 mb-3 mb-md-0">
 
           <div class="tool">
             <div class="tool-icon">
               <i class="fa fa-calculator"></i>
             </div>
             <p class="tool-function">
-              Build and Price
+               Payments
             </p>
             <button class="btn-main btn-CTA--blue tool-btn">
               GO
@@ -962,7 +972,7 @@
       <h3 class="heading">Discover Honda</h3>
       <p class="heading-desc">Explore the world of Honda through our latest news, events and videos.</p>
       <div class="row">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="card discover-card">
             <img src="./img/Homepage-JD-Power-Discover-Tout-P3.jpeg" class="img-fluid card-img-top" alt="...">
             <div class="card-body">
@@ -974,7 +984,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="card discover-card">
             <img src="./img/Homepage-JD-Power-Discover-Tout-P3.jpeg" class="img-fluid card-img-top" alt="...">
             <div class="card-body">
@@ -986,7 +996,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="card discover-card">
             <img src="./img/Homepage-JD-Power-Discover-Tout-P3.jpeg" class="img-fluid card-img-top" alt="...">
             <div class="card-body">
@@ -998,7 +1008,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="card discover-card">
             <img src="./img/Homepage-JD-Power-Discover-Tout-P3.jpeg" class="img-fluid card-img-top" alt="...">
             <div class="card-body">
@@ -1010,7 +1020,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="card discover-card">
             <img src="./img/Homepage-JD-Power-Discover-Tout-P3.jpeg" class="img-fluid card-img-top" alt="...">
             <div class="card-body">
@@ -1022,7 +1032,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="card discover-card">
             <img src="./img/Homepage-JD-Power-Discover-Tout-P3.jpeg" class="img-fluid card-img-top" alt="...">
             <div class="card-body">
@@ -1102,9 +1112,9 @@
     </div>
     <div class=" contact-content">
       <div class="row">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-xl-4 order--2">
           <div class="contact-item">
-            <p class="contact-heading">Stay In Touch</p>
+            <p class="contact-heading d-none d-md-block">Stay In Touch</p>
             <div class="contact-socials">
               <a class="contact-socials-item" target="_blank" href="">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -1270,9 +1280,9 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-xl-4 order--3">
           <div class="contact-item">
-            <p class="contact-heading">Search for more</p>
+            <!-- <p class="contact-heading">Search for more</p> -->
             <div class="contact-search">
               <i class="fa fa-search"></i>
               <input type="text" placeholder="Search for anything Honda" class="contact-search__input" />
@@ -1280,7 +1290,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-xl-4 order--1">
           <div class="contact-item contact-informed">
             <p class="contact-heading">Receive the latest news and exclusive updates.</p>
             <button class="btn-main btn-CTA-bluewhite contact-informed__btn">Stay informed</button>
@@ -1292,8 +1302,11 @@
   <section class="section links">
     <div class="links-content">
       <div class="link">
-        <h4 class="link-heading">Vehicles</h4>
-        <ul class="link-list">
+        <h4 class="link-heading d-none d-lg-block">Vehicles</h4>
+        <h4 class="link-heading d-block d-lg-none" data-bs-toggle="collapse" data-bs-target="#vehicles_links" >Vehicles
+          <i class="fa fa-plus"></i>
+        </h4>
+        <ul class="link-list collapse " id="vehicles_links">
           <li class="link-item">
             <a href="">Civic Models</a>
 
@@ -1305,8 +1318,12 @@
         </ul>
       </div>
       <div class="link">
-        <h4 class="link-heading">Vehicles</h4>
-        <ul class="link-list">
+        <h4 class="link-heading d-none d-lg-block">Shopping Tools</h4>
+        <h4 class="link-heading d-block d-lg-none" data-bs-toggle="collapse" data-bs-target="#function__links" >Shopping Tools
+          <i class="fa fa-plus"></i>
+        </h4>
+
+        <ul class="link-list collapse " id="function__links">
           <li class="link-item">
             <a href="">Civic Models</a>
 
@@ -1318,8 +1335,12 @@
         </ul>
       </div>
       <div class="link">
-        <h4 class="link-heading">Vehicles</h4>
-        <ul class="link-list">
+        <h4 class="link-heading d-none d-lg-block">Discover Honda</h4>
+        <h4 class="link-heading d-block d-lg-none" data-bs-toggle="collapse" data-bs-target="#discover__links" >Discover Honda
+          <i class="fa fa-plus"></i>
+        </h4>
+
+        <ul class="link-list collapse " id="discover__links">
           <li class="link-item">
             <a href="">Civic Models</a>
 
@@ -1331,8 +1352,13 @@
         </ul>
       </div>
       <div class="link">
-        <h4 class="link-heading">Vehicles</h4>
-        <ul class="link-list">
+        <h4 class="link-heading d-none d-lg-block">Help & Support
+        </h4>
+        <h4 class="link-heading d-block d-lg-none" data-bs-toggle="collapse" data-bs-target="#support__links" >Help & Support
+          <i class="fa fa-plus"></i>
+        </h4>
+
+        <ul class="link-list collapse " id="support__links">
           <li class="link-item">
             <a href="">Civic Models</a>
 
@@ -1344,8 +1370,12 @@
         </ul>
       </div>
       <div class="link">
-        <h4 class="link-heading">Vehicles</h4>
-        <ul class="link-list">
+        <h4 class="link-heading d-none d-lg-block">Owners</h4>
+        <h4 class="link-heading d-block d-lg-none" data-bs-toggle="collapse" data-bs-target="#owners__links" >Owners
+          <i class="fa fa-plus"></i>
+        </h4>
+
+        <ul class="link-list collapse " id="owners__links">
           <li class="link-item">
             <a href="">Civic Models</a>
 
@@ -1360,9 +1390,9 @@
     </div>
   </section>
   <footer class="footer">
-    <div class="footer-content container">
+    <div class="footer-content container-fluid">
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12  col-lg-6 mb-3 mb-lg-0">
           <div class="footer-item">
             <p class="footer-copyright">
               <a href="" class="footer-link">©2022 American Honda Motor Co.</a>, Inc. All information contained herein
@@ -1371,7 +1401,7 @@
             </p>
           </div>
         </div>
-        <div class="col-12 col-md-5 " style="margin-left:auto">
+        <div class="col-12   col-lg-5 mb-3 mb-lg-0 ml-auto">
           <ul class="footer-policy">
             <li class="footer-policy-link border-end">
               <a href="">Privacy Policy</a>
@@ -1396,7 +1426,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-md-12">
+        <div class="col-12  mb-3 mb-lg-2">
           <div class="footer-brands">
             <a href="" class="footer-brand">
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -1877,13 +1907,14 @@
               </svg>
             </a>
           </div>
-          <div class="col-12 col-md-6">
-            <div class="footer-item">
-              <p class="footer-copyright">
-                We use cookies to improve your experience on this site and show you personalized advertising. To find
-                out more, read our <a href="" class="footer-link">Cookie Policy .</a>
-              </p>
-            </div>
+          
+        </div>
+        <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+          <div class="footer-item">
+            <p class="footer-copyright">
+              We use cookies to improve your experience on this site and show you personalized advertising. To find
+              out more, read our <a href="" class="footer-link">Cookie Policy .</a>
+            </p>
           </div>
         </div>
       </div>
@@ -1919,15 +1950,7 @@
           0: {
             items: 1,
           },
-          768: {
-            items: 2
-          },
-          992: {
-            items: 3
-          },
-          1140: {
-            items: 1
-          }
+          
         },
         autoplay: true,
         autoplayTimeout: 3500,
@@ -1943,18 +1966,9 @@
           0: {
             items: 1,
           },
-          768: {
-            items: 2
-          },
-          992: {
-            items: 3
-          },
-          1140: {
-            items: 1
-          }
         },
-        // autoplay: true,
-        // autoplayTimeout: 3500,
+        autoplay: true,
+        autoplayTimeout: 3500,
       });
     });
   </script>

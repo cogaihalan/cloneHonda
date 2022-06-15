@@ -1,7 +1,8 @@
 .intro {
 
   height: 100%;
-  &-item{
+
+  &-item {
     margin-top: 2.5rem;
     height: 350px;
     position: relative;
@@ -16,49 +17,49 @@
         background: url(../img/MY23-Journey-FC-non-VLP-T3-1400-2x.webp) center/cover no-repeat;
       }
 
-      &-2{
+      &-2 {
 
         background: url(../img/MY24-Prologue-FC-U1-non-VLP-T3-1400-2x-A.webp) center/cover no-repeat;
       }
     }
   }
- 
+
   &-second {
-    
-    &-item-1{
 
-      
-        background: url(../img/2020-CPO-homepage-T3-1400-2x.webp) center/cover no-repeat;
-    }
-    &-item-2{
-     
-        background: url(../img/howtovideos-1400-2x.jpeg) center/cover no-repeat;
-        .intro-desc {
-          width: 80%;
-          position: absolute;
-          bottom: 0;
-          text-align: center;
-          left: 50%;
-          transform: translate(-50%, -24%);
-          @include styleText($fz-12 - 1 , $fw-bold , $white);
-      
-        }  
-    }
-      
-    }
-    
+    &-item-1 {
 
-      &-desc {
+
+      background: url(../img/2020-CPO-homepage-T3-1400-2x.webp) center/cover no-repeat;
+    }
+
+    &-item-2 {
+
+      background: url(../img/howtovideos-1400-2x.jpeg) center/cover no-repeat;
+
+      .intro-desc {
         width: 80%;
         position: absolute;
         bottom: 0;
         text-align: center;
         left: 50%;
-        transform: translate(-50%, -50%);
-        @include styleText($fz-12 , $fw-bold , $white);
-    
-      }  
+        transform: translate(-50%, -24%);
+        @include styleText($fz-12 - 1, $fw-bold , $white);
+
+      }
+    }
+
   }
 
-  
- 
+
+  &-desc {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include styleText($fz-12 , $fw-bold , $white);
+
+  }
+
+}

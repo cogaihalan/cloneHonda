@@ -30,8 +30,12 @@
     .row{
         justify-content: space-between;
         align-items: center;
+        
     }
-
+    @include responsive("medium"){
+        padding: 0.75rem 0;
+    }
+   
 }
 &-item{
     height: 100%
@@ -40,10 +44,14 @@
     @include styleText($fz-14 , 700 , $black);
 }
 &-socials{
-
     margin-top: 0.75rem;
     &-item{
         margin-right: 0.5rem;
+    }
+    @include responsive("medium"){
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
     }
 }
 
@@ -55,6 +63,9 @@
         transform: translateY(-50%);
         left: 5%;
         color: $blue-100;
+        @include responsive("extra-large"){
+            left: 2.5%;
+        }
     }
     &__input{
         outline: none;
@@ -77,10 +88,21 @@
 }
 &-informed{
     text-align: right;
-    &__btn{
-        font-size: $fz-14 !important;
-        margin: 0.75rem 0 0 auto !important;
-        padding: 0.35rem 1rem !important;
+    &__btn.btn-main{
+        font-size: $fz-14 ;
+        margin: 0.75rem 0 0 auto ;
+        padding: 0.35rem 1rem ;
     }
+    @include responsive("medium"){
+        margin-top: 2rem;
+        text-align: center;
+        &__btn.btn-main{
+            // margin-right: 0;
+            margin: 0.5rem auto 0;
+        }
+    }
+}
+@include responsive("large"){
+
 }
 }

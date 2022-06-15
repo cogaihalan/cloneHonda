@@ -4,8 +4,6 @@
 
   &-carousel{
     display: block;
-    // position: absolute;
-    // top: 58px;
 }
   &-info{
     width: 100%;
@@ -13,27 +11,37 @@
     
 }
 &-desc{
-      text-align: center;
+    text-align: center;
     @include styleText($fz-20 + 4 ,700 ,$white);
    position: absolute;
    bottom: 0;
+   width: 100%;
    left: 50%;
    transform: translate(-50%,-50%);
-        
+    @include responsive("medium"){
+      font-size: $fz-18;
+    } 
 
 }
 
 &-img{
     width: 100%;
-    // min-height: 500px;
+    
     img{
-        width: 100%;
+        // width: 100%;
         display: block;
         object-fit: cover;
         height: 500px;
-        // transform: scale(1.25);
+      
 
     }
+    @include responsive("large"){
+      img{
+        // height: 450px;
+        // object-fit: unset;
+      }
+    }
 }
+
 }
 

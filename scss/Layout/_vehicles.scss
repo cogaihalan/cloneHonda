@@ -9,7 +9,7 @@
       }
         background:  center/ cover no-repeat;
         height: 630px;
-        // text-align: center;
+      
         &-order{
             position: absolute;
             top: 6%;
@@ -23,12 +23,27 @@
             transform: translateY(-50%);
             width: 70%;
             padding: 2rem;
+            @include responsive("medium"){
+              text-align: center;
+              top: 60%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 100%;
+            }
         }
           &-brand{
-            width: 100%;
+            width: 80%;
+            margin: 0 auto;
             svg{
                 width: 35%;
                 height: 100%;
+            }
+            @include responsive("medium"){
+              width: 100%;
+              margin-bottom: 1rem;
+              svg{
+                width: 70%;
+              }
             }
         }
           &-desc{
@@ -36,31 +51,43 @@
             @include styleText($fz-14, 400 ,$white);
             line-height: 1.6;
             padding-bottom: 1.25rem ;
-            // margin-right: 2re;
             width: 40%;
             text-align: justify;
+            @include responsive("medium"){
+              display: none;
+            }
         }
           &-stats{
             display: flex;
             gap: 1.25rem;
-            // text-align: center;
             @include styleText($fz-14, 400 ,$white);
+            @include responsive("medium"){
+              font-size: $fz-16;
+              width: 80%;
+              margin: 0 auto;
+              font-weight: 700;
+              justify-content: space-between;
+            }
         }
         
         &-price,
         &-cty{
               @include styleText($fz-huge , 300 , $white);
+              @include responsive("medium"){
+               font-size: $fz-subheading;
+              }
             
         }
           &-more{
             display: flex;
             gap: 0.5rem;
             margin: 1rem 0;
-            // justify-content: center;
-            // align-items: center;
             .btn-main{
                 margin: 0;
                 
+            }
+            @include responsive("medium"){
+              justify-content: center;
             }
         }
         &-relative{
@@ -73,7 +100,6 @@
             border-top: 1px solid rgba($color: #fff, $alpha: 0.5);
             padding: 2rem 0 2rem 5%;
             @include styleText($fz-16, 700 , $white);
-            // margin-right: 2rem;
             &-img{
                 position: absolute;
                 top: 0.5rem;
@@ -84,7 +110,23 @@
                background: url(../img/Vehicles/accord-family-vehicles-2x.webp) 100% 0/contain no-repeat;
             //    background-position: ;  
             }
+            @include responsive("medium"){
+              width: 100%;
+              text-align: center;
+              font-size: $fz-14;
+              display: block;
+              margin: 2rem 0 ;
+              &-img{
+                display: none;
+              }
+              border: none;
+            }
         }
-       
+        @include responsive("medium"){
+          height: 600px;
+          &-order{
+           display: none;
+          }
+        }  
     }
 }
