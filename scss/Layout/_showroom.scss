@@ -99,7 +99,7 @@
   &-close{
     position: fixed;
     right: 10%;
-    top: 3%;
+    top: 7%;
     width: 30px;
     height: 30px;
     border: 1px solid $blue-100;
@@ -107,6 +107,7 @@
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
+    z-index: 10000;
     i{
         animation: scale 2s infinite ease-in;
         font-size: $fz-subheading;

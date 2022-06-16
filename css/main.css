@@ -585,7 +585,7 @@ i {
 .showroom-close {
   position: fixed;
   right: 10%;
-  top: 3%;
+  top: 7%;
   width: 30px;
   height: 30px;
   border: 1px solid #007cc3;
@@ -593,6 +593,7 @@ i {
   text-align: center;
   border-radius: 50%;
   cursor: pointer;
+  z-index: 10000;
 }
 
 .showroom-close i {
