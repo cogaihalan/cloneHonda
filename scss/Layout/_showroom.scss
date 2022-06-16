@@ -6,41 +6,44 @@
     transform: translateY(-120%);
     bottom: 0;
     z-index: 100;
-    // padding-top: 3rem;
-    overflow: auto;
     overflow-y: scroll;
     transition: all 0.5s ease-in-out;
-    &-overlay{
-        position: absolute;
-  }
     &__nav{
         display: flex;
         justify-content: center;
         gap: 2rem;
-        padding: 1rem 0;
+        padding: 1rem 1.5rem;
         background-color: $white;
-        // position: fixed;
-        // top: 1rem;
-        // left: 50%;
         width: 100%;
-        // transform: translate(-50%);
         z-index: 101;
+        overflow: auto;
+        flex-wrap: nowrap;
+       @include responsive("medium"){
+        justify-content: unset;
+
+       }
   }
     &__nav-item{
+        
         &:hover a{
             color: $blue-100;
         }
+
         a{
             @include styleText($fz-14 , 700 , $black);
+            white-space: nowrap;
+            @include responsive("medium"){
+                font-size: $fz-12 ;
+               
+            }
         }
         .active{
             color: $blue-100;
         }
+        
   }
     &-list{
         background-color: #f6f6f6;
-        // margin-top: 4rem;
-        // position: fixed;
   }
     &-item-type{
         display: block;
@@ -52,8 +55,18 @@
   }
     &-vehicles{
         padding: 0.5rem 2rem;
+        // display: flex;
         display: grid;
         grid-template-columns: repeat(5 ,1fr);
+        @include responsive("large"){
+            grid-template-columns: repeat(2 , 1fr);
+        }
+        @include responsive("medium"){
+            grid-template-columns: repeat(2 , 1fr);
+        }
+        @include responsive("small"){
+            grid-template-columns:  repeat(1 ,1fr)
+        }
         gap: 1rem;
         .card{
             padding: 1rem;
@@ -66,6 +79,7 @@
             margin: 0.5rem 0 ; 
         }
         .card-text{
+
             span{
                 @include styleText($fz-14 , $fw-bold , $black);
                 margin-right: 1rem;
@@ -82,8 +96,32 @@
         }
     
   }
-
+  &-close{
+    position: fixed;
+    right: 10%;
+    top: 3%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $blue-100;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    i{
+        animation: scale 2s infinite ease-in;
+        font-size: $fz-subheading;
+        color: $blue-100;
+    }
+  }
   }
   .slideIn{
     transform: translateY(0);
+}
+@keyframes scale {
+    from{
+        transform: scale(1);
+    }to{
+        transform: scale(1.1);
+    }
+    
 }

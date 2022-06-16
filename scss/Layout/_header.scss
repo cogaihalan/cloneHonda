@@ -14,34 +14,66 @@
     margin-left: 1rem;
 }
 .navbar-nav{
-    margin: 0 2rem 0 auto;
+    margin: 0 0 0 auto;
+    @include responsive("large"){
+        margin: 0;
+        padding: 1rem;
+        
+    }
 }
 .nav-item{
     padding: 0.35rem 0.85rem ;
     position: relative;
     &:nth-child(2){
-        border-right: 1px solid $white
+        border-right: 1px solid $white;
+        @include responsive("large"){
+            border:none;
+        }
+        
     };
     &:first-child{
         border-left: 1px solid $white;
         border-right: 1px solid $white;
+        @include responsive("large"){
+            border:none;
+        }
 
     }
+   
     background-position: 0 100%;
-    background-image: linear-gradient(180deg,#fff 50%,transparent 0);
+    background-image: linear-gradient(180deg,$blue-200 50%,transparent 0);
     background-size: 200% 200%;
     
     &:hover{
         background-position: 0  0;
     };
     &:hover .nav-link{
-        color: $black;
+        color: $white;
         
     }
 }
 .nav-link{
+    white-space: nowrap;
     text-transform: capitalize; 
     @include styleText($fz-16 , 400 , $white);
+    @include responsive("large"){
+        color: $black;
+        font-size: $fz-14 - 1;
+        &:hover{
+            color: $blue-100;
+        }
+        text-transform: uppercase;
+    }
    
 }
 
+@include responsive("large"){
+    #header_navbar{
+        position: fixed;
+        top: 3rem;
+        left: 0;
+        right: 0;
+        // bottom: 0;
+        background-color: $white;
+    }
+}

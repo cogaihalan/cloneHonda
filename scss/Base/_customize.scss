@@ -89,7 +89,9 @@
 }
 
 
-
+// .col-2-4{
+//     width: 20%;
+// }
 #pills-tab {
     justify-content: center;
     align-items: center;
@@ -110,7 +112,8 @@
         background: unset;
        @include responsive("medium"){
         // margin: 0 1rem;
-        // padding: 0;
+        white-space: nowrap;
+       
        }
 
         .nav-link {
@@ -118,7 +121,7 @@
             text-transform: uppercase;
             @include styleText($fz-14 , 700, $black );
             @include responsive("medium"){
-                font-size: $fz-12 ;
+                font-size: $fz-14 ;
                 font-weight: 600;
                 // padding: 0;
             }
@@ -160,4 +163,52 @@
             bottom: 2%;
         }
     }
+}
+
+
+
+.navbar-toggler{
+    color: $white;
+    width: 40px;
+    height: 40px;
+    // border: 1px solid $blue-200;
+    border: none;
+    border-radius: 0.25rem;
+    outline: none;
+    margin-bottom:  0.5rem;
+    &:focus{
+        // border: 1px solid $white;
+        box-shadow: none;
+    }
+
+    &-icon{
+        background: unset;
+        margin: -1rem;
+        height: 3px;
+        background-color: $white;
+        position: relative;
+    }
+    &-icon:nth-child(2){
+        transform: translate(-4px,-8px);
+    }
+    p{
+        font-size: $fz-12;
+        margin: 0 -0.75rem;
+    }
+}
+ .collapse:not(.show){
+    display: block;
+    @include responsive("large"){
+        display: none;
+    }
+} 
+.transform45deg{
+    transform: rotate(45deg);
+}
+.transform-45deg{
+    transform:  rotate(-45deg) translate(-4px , -4px) !important;
+}
+.fadeOut{
+    opacity: 0;
+    transform: translateY(-10px);     
 }

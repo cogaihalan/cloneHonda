@@ -1,10 +1,11 @@
 
     .card {
-    width: 100%;
+    // width: 100%;
+    // padding: 2rem;
     margin-bottom: 2rem;
     &-body{
         margin-top: 0.5rem;
-        text-align: center;
+        text-align: justify;
         padding: 0 1.5rem 2rem;
   }
     &-title{
@@ -12,9 +13,24 @@
         text-transform: capitalize;
         letter-spacing: 1px;
         margin: 1rem 0;
-  }
-    &-text{
-        @include styleText($fz-14 , 400 ,$black)
+        text-align: center
+        
+      }
+      &-text{    @include styleText($fz-14 , 400 ,$black);
+        
   }
   }
 
+.discover-card{
+  @media  screen and (min-width:993px) {
+    .card-title{
+      min-height: 3rem;
+    }
+    .card-text{
+    padding: 1rem;
+      min-height: 5rem;
+  }
+    
+  }
+
+}
