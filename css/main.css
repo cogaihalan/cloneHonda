@@ -457,6 +457,7 @@ i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: fixed;
   gap: 2rem;
   padding: 1rem 1.5rem;
   background-color: #fff;

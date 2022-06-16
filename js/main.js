@@ -48,7 +48,13 @@ const MENU_TEXT = document.querySelector(".menu-text")
 console.log(SHOW_MENU)
 console.log(NAVBAR_TOGGLER)
 NAVBAR_TOGGLER.onclick =()=>{
+   
     SHOW_MENU[0].classList.toggle("transform45deg")
     SHOW_MENU[1].classList.toggle("transform-45deg")
     MENU_TEXT.classList.toggle("fadeOut")
+    if(SHOWROOM.classList.contains("slideIn")){
+        SHOWROOM.classList.remove("slideIn")
+    document.querySelector(".js-arrow").classList.replace("fa-angle-up", "fa-angle-down")
+
+    }
 }
