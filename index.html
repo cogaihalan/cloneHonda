@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/main.css" />
   <title>HONDA</title>
-
   <!-- Bootstrap CSS -->
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,7 +18,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   <!-- FONT -->
-  <link href="http://fonts.cdnfonts.com/css/avenir-next-lt-pro" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <!-- OWL CAROUSEL CSS -->
   <link rel="stylesheet" href="./css/owl.carousel.min.css">
   <link rel="stylesheet" href="./css/owl.theme.default.min.css">
@@ -39,7 +40,7 @@
 
     <nav class="navbar navbar-expand-lg navigation">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="./img/logo.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header_navbar"
@@ -49,429 +50,550 @@
           <p class="menu-text">MENU</p>
         </button>
         <div class="collapse navbar-collapse" id="header_navbar">
+          <section class="showroom" id="_showroom">
+            <div class="showroom-overlay">
+              <div class="showroom-close d-block d-lg-none">
+                <i class="fa fa-times js-close "  ></i>
+              </div>
+              <ul class="showroom__nav nav-pills nav">
+
+                <li class="showroom__nav-item">
+                  <a href="#suvs" class="active">
+                    SUV & CROSSOVERS
+
+                  </a>
+                </li>
+                <li class="showroom__nav-item">
+                  <a href="#cars">
+                    CARS
+
+                  </a>
+                </li>
+                <li class="showroom__nav-item">
+                  <a href="#truck">
+                    MINIVAN & TRUCK
+
+                  </a>
+                </li>
+                <li class="showroom__nav-item">
+                  <a href="">
+                    ELECTRIFIED
+
+                  </a>
+                </li>
+                <li class="showroom__nav-item">
+                  <a href="">
+                    PRE-OWNED
+
+                  </a>
+                </li>
+                <li class="showroom__nav-item">
+                  <a href="">
+                    FUTURE
+
+                  </a>
+                </li>
+              </ul>
+              <div class="showroom-list">
+                <div class="showroom-item">
+
+                  <p class="showroom-item-type">SUV & CROSSOVERS</p>
+                  <div class="showroom-vehicles  " id="suvs">
+                    <div class="card vehicle-card">
+                      <img src="./img/products/MY23-HR-V-non-VLP-nav-2x.webp" class="img-fluid card-img-top"
+                        alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">HR-V</h5>
+                        <p class="card-text">
+                          <span>$23,650</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>23/32</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/suvs2.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">CR-V</h5>
+                        <p class="card-text">
+                          <span>$32,010</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>28/34</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/suvs3.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">CRV-Hybrid</h5>
+                        <p class="card-text">
+                          <span>$26,800</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>40/35</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/suvs4.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pilot</h5>
+                        <p class="card-text">
+                          <span>$38,080</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>20/27</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/suvs5.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Passport</h5>
+                        <p class="card-text">
+                          <span>$38,370</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>20/25</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="showroom-item">
+
+                  <p class="showroom-item-type">CARS- Sedans & Hatchbacks</p>
+                  <div class="showroom-vehicles " id="cars">
+                    <div class="card vehicle-card">
+                      <img src="./img/products/cars1.png" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Civic Sedan</h5>
+                        <p class="card-text">
+                          <span>$22,550</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>21/40</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/cars2.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Insight</h5>
+                        <p class="card-text">
+                          <span>$25,760</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>55/49</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/cars3.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Accord</h5>
+                        <p class="card-text">
+                          <span>$26,520</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>30/38</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/cars4.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Civic Si Sedan</h5>
+                        <p class="card-text">
+                          <span>$27,500</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>27/37</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/card5.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Accord Hybrid</h5>
+                        <p class="card-text">
+                          <span>$27,720</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>48/47</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/cars6.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Civic Hatchback</h5>
+                        <p class="card-text">
+                          <span>$23,550</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>30/38</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/cars7.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Civic Type R-TC</h5>
+                        <p class="card-text">
+                          <span>$40,550</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>21/40</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="showroom-item">
+
+                  <p class="showroom-item-type">MINIVAN & TRUCK</p>
+                  <div class="showroom-vehicles " id="truck">
+                    <div class="card vehicle-card">
+                      <img src="./img/products/truck1.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Ridgeline</h5>
+                        <p class="card-text">
+                          <span>$38,140</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>18/24</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/truck2.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Odyssey</h5>
+                        <p class="card-text">
+                          <span>$37,340</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>19/28</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="showroom-item">
+
+                  <p class="showroom-item-type">ELECTRIFIED</p>
+                  <div class="showroom-vehicles " id="electric">
+                    <div class="card vehicle-card">
+                      <img src="./img/products/elec1.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Insight</h5>
+                        <p class="card-text">
+                          <span>$25,760</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>55/49</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/elec2.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Accord Hybrid</h5>
+                        <p class="card-text">
+                          <span>$27,720</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>48/47</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/elec3.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">CRV-Hybrid</h5>
+                        <p class="card-text">
+                          <span>$32,010</span>STARTING MSRP*
+                        </p>
+                        <p class="card-text">
+                          <span>40/35</span>CITY/HWY MPG RTG*
+                        </p>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Explore</button>
+                          <button class="btn-main btn-CTA--bluewhite">Build</button>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="showroom-item">
+
+                  <p class="showroom-item-type">PRE-OWNED</p>
+                  <div class="showroom-vehicles " id="owned">
+                    <div class="card vehicle-card">
+                      <img src="./img/products/fu1.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">SUVS</h5>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Search</button>
+
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/fu2.png" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">CARS</h5>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Search</button>
+
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/fu3.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MINIVAN & TRUCK</h5>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Search</button>
+
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card vehicle-card">
+                      <img src="./img/products/fu4.webp" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">ELECTRIFIED</h5>
+                        <div class="showroom-actions">
+                          <button class="btn-main btn-CTA--bluewhite">Search</button>
+
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
           <ul class="navbar-nav">
             <li class="nav-item js-showroom ">
               <a class="nav-link " aria-current="page" href="#">Vehicles
                 <i class="fa fa-angle-down js-arrow"></i>
               </a>
-              <section class="showroom" id="_showroom">
-                <div class="showroom-overlay">
-                  <div class="showroom-close">
-                    <i class="fa fa-times js-close"></i>
+            </li>
+            <li class="nav-item js-dropdown">
+              <a class="nav-link dropdown-toggle"  data-bs-toggle="dropdown" href="#">Shopping Tools
+                <i class="fa fa-angle-down js-arrow"></i>
+              </a>
+              <div class="dropdown dropdown-menu">
+                  <div class="dropdown-content">
+                    <div class="dropdown-item">
+                      <a href="#" class="dropdown-link">
+                        <svg  viewBox="0 0 51 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="presentation">
+                          <g id="Atom/Shopping_Tools/estimate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                              <g id="estimate_new">
+                                  <rect id="Rectangle" fill="#00446B" x="0" y="0" width="51" height="80" rx="8"></rect>
+                                  <rect id="Rectangle" fill="#FFFFFF" x="5" y="6" width="41" height="19" rx="4"></rect>
+                                  <rect id="Rectangle-Copy-9" fill="#FFFFFF" x="5" y="42" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-13" fill="#FFFFFF" x="5" y="53" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-17" fill="#FFFFFF" x="5" y="64" width="19" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-18" fill="#FFFFFF" x="5" y="31" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-10" fill="#FFFFFF" x="16" y="42" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-14" fill="#FFFFFF" x="16" y="53" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-21" fill="#FFFFFF" x="16" y="31" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-11" fill="#FFFFFF" x="27" y="42" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-15" fill="#FFFFFF" x="27" y="53" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-20" fill="#FFFFFF" x="27" y="64" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-22" fill="#FFFFFF" x="27" y="31" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-12" fill="#FFFFFF" x="38" y="42" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-16" fill="#FFFFFF" x="38" y="53" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-24" fill="#FFFFFF" x="38" y="64" width="8" height="8" rx="2"></rect>
+                                  <rect id="Rectangle-Copy-23" fill="#FFFFFF" x="38" y="31" width="8" height="8" rx="2"></rect>
+                              </g>
+                          </g>
+                      </svg>
+                        <p>Estimate Payments</p>
+                    </a></div>
+                    <div class="dropdown-item">
+                      <a href="#" class="dropdown-link">
+                        <svg id="build-price-svg" class="build-price-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.66 25.81" aria-hidden="true" role="presentation"><defs></defs><path d="M17.53,11.82a2.72,2.72,0,0,1,1.84-.45l7.29-7.29L22.58,0,15.29,7.28a2.72,2.72,0,0,1-.47,1.88Zm0,0"></path><path d="M4.82,20.7l-.26-.27L3.18,21.55.85,25.22l.59.59,3.68-2.33,1.11-1.37L6,21.84l4.63-4.63L9.45,16.07Zm0,0"></path><path d="M24.51,21.19,11.16,7.85a5.68,5.68,0,0,0-7-7L7.42,4.05,6.57,7.2l-3.15.85L.2,4.83a5.68,5.68,0,0,0,7.25,6.89l0,0L20.72,25a2.68,2.68,0,1,0,3.79-3.79Zm-1.66,3.34a1,1,0,1,1,1-1A1,1,0,0,1,22.85,24.53Z"></path></svg>
+                        <p>Build & Price</p>
+                    </a></div>
+                    <div class="dropdown-item">
+                      <a href="#" class="dropdown-link">
+                        <svg version="1.1" class="see-offers-svg" id="see-offers-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 44 44" style="enable-background:new 0 0 44 44;" xml:space="preserve" aria-hidden="true" role="presentation">
+                          <style type="text/css">
+                            .see-offers-svg-st0{
+                              @media only screen and (min-width: 48em) {
+                                height:3rem;
+                                width:5rem;
+                              }
+                                    
+                              @media only screen and (min-width: 64em) {
+                                height:5rem;
+                                width:7rem;
+                              }
+                            }
+                            hover {
+                                fill: #337ab7;
+                                stroke: #337ab7;
+                                transform: scale(1.2);
+                                  background-color: #337ab7;
+                                      border: #337ab7;
+                              }
+                            hover path {
+                                fill: #337ab7;
+                                stroke: #337ab7;
+                                transform: scale(1.2);
+                                  background-color: #337ab7;
+                                      border: #337ab7;
+                              }
+                          </style>
+                          <path class="see-offers-svg-st0" d="M43.8,23.4L20.6,0.2C20.5,0.1,20.3,0,20.1,0L3,0.3c-1.5,0-2.7,1.2-2.7,2.8L0,20.2c0,0.2,0.1,0.3,0.2,0.5
+                            l23.2,23.2c0.2,0.2,0.6,0.3,0.9,0c0,0,0,0,0,0l19.5-19.6C44.1,24,44.1,23.6,43.8,23.4z M10.8,14c-1.7,0-3.2-1.4-3.1-3.2
+                            s1.4-3.2,3.2-3.1c1.7,0,3.1,1.4,3.1,3.1C14,12.6,12.6,14,10.8,14C10.8,14,10.8,14,10.8,14z"></path>
+                          </svg>
+                        <p>See Offers</p>
+                    </a></div>
+                    <div class="dropdown-item">
+                      <a href="#" class="dropdown-link">
+                        <svg id="search-black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.08 25.78" aria-hidden="true" role="presentation">
+                          <title>search-icon</title>
+                          <circle cx="10.8" cy="10.8" r="8.8" fill="#fff"></circle>
+                          <path d="M11.2,22A10.8,10.8,0,1,1,22,11.2,10.76,10.76,0,0,1,11.2,22Zm0-17.6a6.87,6.87,0,0,0-6.8,6.8A6.87,6.87,0,0,0,11.2,18,6.87,6.87,0,0,0,18,11.2,6.87,6.87,0,0,0,11.2,4.4Z" transform="translate(-0.4 -0.4)" fill="#fff"></path>
+                          <path d="M11.2,21A9.8,9.8,0,1,1,21,11.2,9.82,9.82,0,0,1,11.2,21Zm0-17.6A7.8,7.8,0,1,0,19,11.2,7.81,7.81,0,0,0,11.2,3.4Z" transform="translate(-0.4 -0.4)"></path>
+                          <path d="M6.7,10.5h-2A4.91,4.91,0,0,1,6.4,7,5.86,5.86,0,0,1,9.9,5.2l.1,2A4.05,4.05,0,0,0,7.7,8.4,3.43,3.43,0,0,0,6.7,10.5Z" transform="translate(-0.4 -0.4)"></path>
+                          <path d="M25.8,22.3l-5.4-5.4a10.53,10.53,0,0,1-3.1,3.2l5.4,5.4a2.12,2.12,0,0,0,3.1,0A2.23,2.23,0,0,0,25.8,22.3Z" transform="translate(-0.4 -0.4)"></path>
+                        </svg>
+                        <p>Search Inventory</p>
+                    </a></div>
+                    <div class="dropdown-item">
+                      <a href="#" class="dropdown-link">
+                        <svg style="width: 60px;" viewBox="0 0 121 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="presentation">
+                          <title>Buy Online Dealer Icon</title>
+                          <g id="iconography" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group-7">
+                          <path d="M91,0 C98.7319865,0 105,6.2680135 105,14 L105,56.58 L96,51.532 L96,26 C96,23.790861 94.209139,22 92,22 L14,22 C11.8578046,22 10.1089211,23.6839685 10.0048953,25.8003597 L10,26 L10,72 C10,74.1421954 11.6839685,75.8910789 13.8003597,75.9951047 L14,76 L81.125,76 L82.158,86 L14,86 C6.2680135,86 0,79.7319865 0,72 L0,14 C0,6.2680135 6.2680135,0 14,0 L91,0 Z M14,7 C11.790861,7 10,8.790861 10,11 C10,13.209139 11.790861,15 14,15 C16.209139,15 18,13.209139 18,11 C18,8.790861 16.209139,7 14,7 Z M26,7 C23.790861,7 22,8.790861 22,11 C22,13.209139 23.790861,15 26,15 C28.209139,15 30,13.209139 30,11 C30,8.790861 28.209139,7 26,7 Z M38,7 C35.790861,7 34,8.790861 34,11 C34,13.209139 35.790861,15 38,15 C40.209139,15 42,13.209139 42,11 C42,8.790861 40.209139,7 38,7 Z" id="Shape" fill="#00446B"></path>
+                          <g id="cursor-copy-6" transform="translate(63.000000, 36.000000)">
+                          <g id="Group-2-Copy-2" transform="translate(34.044639, 34.113370) scale(-1, 1) rotate(-327.000000) translate(-34.044639, -34.113370) translate(9.544639, 10.113370)"></g>
+                          <g id="Group-2-Copy" transform="translate(39.262659, 42.919335) scale(-1, 1) rotate(-327.000000) translate(-39.262659, -42.919335) translate(20.762659, 14.919335)" fill="#00446B" fill-rule="nonzero">
+                          <path d="M21.9057001,2.97553282 L22.0057244,3.15970566 L35.8239062,30.1597057 C37.3720845,33.1847644 34.686355,36.608208 31.4206347,35.8926632 L31.2419512,35.8495014 L23.1691376,33.7170494 L23.169873,50.8205081 C23.169873,53.5819318 20.9312967,55.8205081 18.169873,55.8205081 C15.4811183,55.8205081 13.2880549,53.6982014 13.1744925,51.0373977 L13.169873,50.8205081 L13.1691376,33.8190494 L5.2597895,35.8558976 C2.02102165,36.6891565 -0.690641225,33.4387186 0.565806429,30.4525072 L0.639713348,30.2869061 L0.721916218,30.1220142 L14.9037344,3.12201422 C16.378652,0.313998021 20.350809,0.273864919 21.9057001,2.97553282 Z" id="Combined-Shape"></path>
+                          </g></g>
+                          <g id="Group-4-Copy-3" transform="translate(24.000000, 28.000000)" fill="#00446B">
+                          <path d="M38.8387639,0 C41.1322078,0 43.2801829,1.12346345 44.5883537,3.00722933 L50.139,11 L56.5,11 C57.8807119,11 59,12.1192881 59,13.5 C59,14.8807119 57.8807119,16 56.5,16 L53.611,16 L55,18 L55,40 C55,41.1045695 54.1045695,42 53,42 L45,42 C43.8954305,42 43,41.1045695 43,40 L43,36 L16,36 L16,40 C16,41.1045695 15.1045695,42 14,42 L6,42 C4.8954305,42 4,41.1045695 4,40 L4,18 L5.389,16 L2.5,16 C1.11928813,16 0,14.8807119 0,13.5 C0,12.1192881 1.11928813,11 2.5,11 L8.861,11 L14.4116463,3.00722933 C15.7198171,1.12346345 17.8677922,0 20.1612361,0 L38.8387639,0 Z M12,19 C9.790861,19 8,20.790861 8,23 C8,25.209139 9.790861,27 12,27 C14.209139,27 16,25.209139 16,23 C16,20.790861 14.209139,19 12,19 Z M47,19 C44.790861,19 43,20.790861 43,23 C43,25.209139 44.790861,27 47,27 C49.209139,27 51,25.209139 51,23 C51,20.790861 49.209139,19 47,19 Z M38.5745318,3 L20.4254682,3 C19.1149289,3 17.8875145,3.64197911 17.1399884,4.71841676 L17.1399884,4.71841676 L11.0905526,13.4296042 C10.9742508,13.5970788 10.9119226,13.7961033 10.9119226,14 C10.9119226,14.5522847 11.3596379,15 11.9119226,15 L11.9119226,15 L47.0880774,15 C47.2919741,15 47.4909986,14.9376718 47.6584732,14.82137 C48.1121033,14.5063491 48.2244683,13.8832343 47.9094474,13.4296042 L47.9094474,13.4296042 L41.8600116,4.71841676 C41.1124855,3.64197911 39.8850711,3 38.5745318,3 L38.5745318,3 Z" id="Combined-Shape"></path>
+                          </g></g></g></svg>
+                        <p>Buy Online</p>
+                    </a></div>
                   </div>
-                  <ul class="showroom__nav nav-pills nav">
-
-                    <li class="showroom__nav-item">
-                      <a href="#suvs" class="active">
-                        SUV & CROSSOVERS
-
-                      </a>
-                    </li>
-                    <li class="showroom__nav-item">
-                      <a href="#cars">
-                        CARS
-
-                      </a>
-                    </li>
-                    <li class="showroom__nav-item">
-                      <a href="#truck">
-                        MINIVAN & TRUCK
-
-                      </a>
-                    </li>
-                    <li class="showroom__nav-item">
-                      <a href="">
-                        ELECTRIFIED
-
-                      </a>
-                    </li>
-                    <li class="showroom__nav-item">
-                      <a href="">
-                        PRE-OWNED
-
-                      </a>
-                    </li>
-                    <li class="showroom__nav-item">
-                      <a href="">
-                        FUTURE
-
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="showroom-list">
-                    <div class="showroom-item">
-
-                      <p class="showroom-item-type">SUV & CROSSOVERS</p>
-                      <div class="showroom-vehicles  " id="suvs">
-                        <div class="card vehicle-card">
-                          <img src="./img/products/MY23-HR-V-non-VLP-nav-2x.webp" class="img-fluid card-img-top"
-                            alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">HR-V</h5>
-                            <p class="card-text">
-                              <span>$23,650</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>23/32</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/suvs2.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">CR-V</h5>
-                            <p class="card-text">
-                              <span>$32,010</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>28/34</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/suvs3.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">CRV-Hybrid</h5>
-                            <p class="card-text">
-                              <span>$26,800</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>40/35</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/suvs4.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Pilot</h5>
-                            <p class="card-text">
-                              <span>$38,080</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>20/27</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/suvs5.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Passport</h5>
-                            <p class="card-text">
-                              <span>$38,370</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>20/25</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                  <!-- <hr class="dropdown-divider"> -->
+                  <hr>
+                  <div class="dropdown-content">
+                    <div class="dropdown-item">
+                      <a href="#">Lease or Finance</a>
                     </div>
-                    <div class="showroom-item">
-
-                      <p class="showroom-item-type">CARS- Sedans & Hatchbacks</p>
-                      <div class="showroom-vehicles " id="cars">
-                        <div class="card vehicle-card">
-                          <img src="./img/products/cars1.png" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Civic Sedan</h5>
-                            <p class="card-text">
-                              <span>$22,550</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>21/40</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/cars2.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Insight</h5>
-                            <p class="card-text">
-                              <span>$25,760</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>55/49</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/cars3.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Accord</h5>
-                            <p class="card-text">
-                              <span>$26,520</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>30/38</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/cars4.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Civic Si Sedan</h5>
-                            <p class="card-text">
-                              <span>$27,500</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>27/37</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/card5.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Accord Hybrid</h5>
-                            <p class="card-text">
-                              <span>$27,720</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>48/47</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/cars6.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Civic Hatchback</h5>
-                            <p class="card-text">
-                              <span>$23,550</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>30/38</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/cars7.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Civic Type R-TC</h5>
-                            <p class="card-text">
-                              <span>$40,550</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>21/40</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="dropdown-item">
+                      <a href="#">Trade-In Value</a>
                     </div>
-                    <div class="showroom-item">
-
-                      <p class="showroom-item-type">MINIVAN & TRUCK</p>
-                      <div class="showroom-vehicles " id="truck">
-                        <div class="card vehicle-card">
-                          <img src="./img/products/truck1.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Ridgeline</h5>
-                            <p class="card-text">
-                              <span>$38,140</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>18/24</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/truck2.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Odyssey</h5>
-                            <p class="card-text">
-                              <span>$37,340</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>19/28</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="dropdown-item">
+                      <a href="#">Buyer’s Guide</a>
                     </div>
-                    <div class="showroom-item">
-
-                      <p class="showroom-item-type">ELECTRIFIED</p>
-                      <div class="showroom-vehicles " id="electric">
-                        <div class="card vehicle-card">
-                          <img src="./img/products/elec1.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Insight</h5>
-                            <p class="card-text">
-                              <span>$25,760</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>55/49</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/elec2.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Accord Hybrid</h5>
-                            <p class="card-text">
-                              <span>$27,720</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>48/47</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/elec3.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">CRV-Hybrid</h5>
-                            <p class="card-text">
-                              <span>$32,010</span>STARTING MSRP*
-                            </p>
-                            <p class="card-text">
-                              <span>40/35</span>CITY/HWY MPG RTG*
-                            </p>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Explore</button>
-                              <button class="btn-main btn-CTA--bluewhite">Build</button>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="showroom-item">
-
-                      <p class="showroom-item-type">PRE-OWNED</p>
-                      <div class="showroom-vehicles " id="owned">
-                        <div class="card vehicle-card">
-                          <img src="./img/products/fu1.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">SUVS</h5>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Search</button>
-
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/fu2.png" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">CARS</h5>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Search</button>
-
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/fu3.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">MINIVAN & TRUCK</h5>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Search</button>
-
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card vehicle-card">
-                          <img src="./img/products/fu4.webp" class="img-fluid card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">ELECTRIFIED</h5>
-                            <div class="showroom-actions">
-                              <button class="btn-main btn-CTA--bluewhite">Search</button>
-
-
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
+                    <div class="dropdown-item">
+                      <a href="#">Apply For Financing</a>
                     </div>
                   </div>
                 </div>
-
-              </section>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shopping Tools</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li class="nav-item js-dropdown ">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  id="navbarDropdown-2" href="#">Owners</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown-2">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
@@ -480,31 +602,20 @@
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">Owners</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
+            <li class="nav-item js-dropdown ">
               <a class="nav-link " href="#">Explore</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item js-dropdown ">
               <a class="nav-link " href="#">Find a Dealer</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item js-dropdown ">
               <a class="nav-link " href="#">
                 <i class="fa fa-globe"></i>
                 EN
                 <i class="fa fa-arrow-down"></i>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item js-dropdown">
               <a class="nav-link " href="#">
                 Location
                 <i class="fa fa-map-marker-alt"></i>
@@ -1115,44 +1226,69 @@
               </p>
               <div class="vehicle-info">
                 <div class="vehicle-brand">
-                  <svg width="387px" height="68px" viewBox="0 0 387 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="presentation" aria-hidden="true">
+                  <svg width="387px" height="68px" viewBox="0 0 387 68" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" role="presentation" aria-hidden="true">
                     <title>Badge/Passport/Redesigned/1400_WHITE</title>
                     <defs>
-                        <filter color-interpolation-filters="auto" id="filter-1">
-                            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
-                        </filter>
-                        <polygon id="path-2" points="0.881312249 0.0328788707 49.5416357 0.0328788707 49.5416357 30.6015302 0.881312249 30.6015302"></polygon>
-                        <filter color-interpolation-filters="auto" id="filter-4">
-                            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
-                        </filter>
+                      <filter color-interpolation-filters="auto" id="filter-1">
+                        <feColorMatrix in="SourceGraphic" type="matrix"
+                          values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+                      </filter>
+                      <polygon id="path-2"
+                        points="0.881312249 0.0328788707 49.5416357 0.0328788707 49.5416357 30.6015302 0.881312249 30.6015302">
+                      </polygon>
+                      <filter color-interpolation-filters="auto" id="filter-4">
+                        <feColorMatrix in="SourceGraphic" type="matrix"
+                          values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+                      </filter>
                     </defs>
-                    <g id="Badge/Passport/Redesigned/1400_WHITE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g filter="url(#filter-1)" id="Group-18">
-                            <g transform="translate(0.000000, 29.110121)">
-                                <path d="M346.363569,30.1209809 L346.555695,29.4485399 C347.321856,27.428874 353.669042,10.0297566 353.957231,9.16518964 L354.149357,8.68253165 C354.533609,7.5297757 355.013924,6.47308274 354.341483,5.60851577 C353.957231,5.12585778 353.188727,4.93373179 351.747782,4.93373179 C350.784809,4.93373179 348.380892,4.93373179 344.536029,4.8376688 L337.518744,4.8376688 L336.846303,4.8376688 L338.289591,0.896742939 L386.351548,0.896742939 L386.063359,1.56918391 C385.871233,2.0494989 385.77517,2.34003089 385.679107,2.43609388 L385.583044,2.62821988 C385.390918,3.20459785 384.910603,3.78097583 384.336568,4.16522782 C383.661784,4.54947981 382.797217,4.6455428 382.028713,4.6455428 L381.740524,4.6455428 C381.164146,4.8376688 380.294893,4.8376688 379.14448,4.8376688 L375.203555,4.8376688 C373.661861,4.8376688 372.223259,4.93373179 370.683908,5.12585778 C367.895738,5.51010977 366.836702,6.08883075 365.590226,8.01009068 C364.629596,9.74156762 363.858749,11.5667645 363.186308,13.4903675 C361.839083,17.2391673 358.188689,27.044622 357.225716,29.8327919 L357.129653,30.1209809 L346.363569,30.1209809 Z" id="Fill-1" fill="#00324F"></path>
-                                <path d="M78.7329976,29.9286206 L77.6763047,22.7192098 L53.6394685,22.7192098 L53.4496855,22.9113358 C50.3733267,26.1798207 47.7772828,28.7758646 46.9103728,29.7364946 L46.7205898,29.9286206 L36.6246032,29.9286206 L58.1614584,8.78070335 C58.7378364,8.20198237 59.3142143,7.62560439 59.8882493,7.04922641 C61.2354743,5.70434446 62.4842932,4.45318251 63.4472662,3.58861554 C64.8905541,2.0516076 66.9055341,1.18469763 69.021263,1.08863463 C70.5629569,0.896508639 72.5779368,0.896508639 73.2503778,0.896508639 L82.9621125,0.896508639 L84.5975264,0.896508639 L89.0187672,30.0246836 L78.7329976,29.9286206 Z M77.0975837,18.586158 L75.0779178,4.7413715 L73.1543148,4.7413715 C71.5235869,4.7413715 71.1393349,5.02956049 69.696047,6.28072244 C69.021263,6.85710042 65.3708691,10.7019633 58.7378364,17.527122 L57.6811434,18.586158 L77.0975837,18.586158 Z" id="Fill-3" fill="#00324F"></path>
-                                <path d="M187.458269,30.0249179 L197.936164,0.800679943 L221.776188,0.800679943 C225.717114,0.800679943 228.313158,0.800679943 230.813139,0.992805936 C233.598966,1.18493193 235.620975,2.14556189 236.677668,3.58884984 C237.539892,5.02979479 237.732018,6.85733472 237.15564,8.39434267 C236.869794,9.35731563 236.581605,10.2218826 236.10129,11.0864496 C234.175344,15.0273754 231.581643,17.7194823 224.85489,18.1037343 C223.891917,18.1997973 221.776188,18.1997973 220.909278,18.1997973 L214.468372,18.1997973 C212.261266,18.1997973 211.872328,17.8155453 210.2416,16.2785374 C209.761285,15.7982224 209.278627,15.3179074 208.702249,14.7391864 L207.931402,13.8746195 L216.874632,13.8746195 C218.41164,13.8746195 219.564396,13.7785565 220.428963,13.7785565 C223.699791,13.5864305 225.143079,13.0100525 226.485618,11.0864496 C227.061996,10.2218826 227.446248,9.35731563 227.734437,8.29827967 C228.022626,7.5297757 227.926563,6.56914573 227.446248,5.89670476 C226.773807,5.12585778 225.717114,4.6455428 224.754141,4.6455428 C223.603728,4.8376688 222.547035,4.8376688 221.389593,4.8376688 L207.258961,4.8376688 L198.12829,30.0249179 L187.458269,30.0249179 Z" id="Fill-5" fill="#00324F"></path>
-                                <path d="M323.581175,30.1209809 C318.965465,30.1209809 318.770996,30.1209809 316.849736,28.2934409 C316.65761,28.1013149 316.371764,27.909189 316.179638,27.621 C315.408791,26.852496 311.273396,22.5273181 307.716722,18.7785183 L303.393887,14.1628085 L312.234026,14.1628085 C313.773377,14.1628085 314.928476,14.0667455 315.795386,14.0667455 C319.061528,13.8746195 320.504816,13.2982415 321.849698,11.3746386 C322.428419,10.5100716 322.812671,9.64550462 323.10086,8.58646866 C323.389049,7.81796469 323.292986,6.85733472 322.812671,6.18489375 C322.14023,5.41404677 321.081194,4.93373179 320.118221,4.93373179 C318.965465,4.8376688 317.906429,4.7416058 316.753673,4.8376688 L302.625383,4.8376688 L293.490027,30.0249179 L282.627879,30.0249179 L293.105775,0.992805936 L316.945799,0.992805936 C320.889068,0.992805936 323.485112,0.992805936 325.98275,1.18493193 C328.773262,1.37705792 330.788242,2.34003089 331.844935,3.78097583 C332.711845,5.22192078 332.903971,7.04946071 332.327593,8.58646866 C332.037061,9.54944162 331.748872,10.4140086 331.268557,11.2785756 C329.347297,15.2195014 326.753597,17.9116083 320.022158,18.2958603 L319.44578,18.2958603 L318.002492,18.3919233 L329.635486,30.0249179 C329.827612,30.1209809 323.963084,30.1209809 323.581175,30.1209809" id="Fill-7" fill="#00324F"></path>
-                                <path d="M98.8223475,30.1209809 L93.7286657,30.1209809 L92.5735667,30.1209809 L92.8617557,29.4485399 C93.5341967,28.0052519 93.9207917,27.140685 94.1129177,26.852496 C94.5932326,25.891866 94.8814216,25.891866 96.1325836,25.891866 L97.2876825,25.891866 L118.52932,25.891866 C119.778139,25.891866 120.935581,25.795803 122.088337,25.69974 C124.009597,25.507614 125.546605,24.0643261 125.930856,22.1430662 C126.122982,20.4115892 124.874164,19.9312742 123.435562,19.6430853 L121.22377,19.1627703 C121.127707,19.1627703 110.07109,16.6627894 106.41601,15.7982224 C102.765616,14.9313124 100.553824,13.6824935 99.8790405,12.2415485 C99.4947885,11.3746386 99.4947885,10.3179456 99.8790405,9.45337863 C100.938076,5.80064176 103.920715,3.01247186 107.571109,2.0494989 C110.841937,1.18493193 114.300205,0.896742939 117.667096,0.992805936 L144.38901,0.992805936 L145.157514,0.992805936 L144.869325,1.66524691 C144.773262,1.9534359 144.581136,2.24162489 144.581136,2.43609388 C143.620506,4.6455428 143.236254,4.8376688 139.389048,4.8376688 L117.856879,4.8376688 C117.090718,4.8376688 116.319871,4.93373179 115.551367,5.02979479 C113.531701,5.41404677 112.184476,6.47308274 111.99235,8.01009068 C111.800224,9.45337863 113.049043,9.93369361 114.878926,10.4140086 C116.60806,10.8943236 120.260797,11.7588905 124.009597,12.6258005 L124.489912,12.7218635 C126.315108,13.1061155 128.144991,13.5864305 129.778062,13.9706825 C130.834755,14.2588715 131.795385,14.4509974 132.659952,14.7391864 L133.334736,14.9313124 C136.411095,15.7021594 137.948103,16.6627894 138.620544,18.1037343 C139.004796,19.0667073 139.004796,20.1234002 138.716607,21.1800932 C137.563851,25.0249561 134.585898,28.0052519 130.738692,29.2564139 C127.856802,29.8327919 124.874164,30.1209809 121.896211,30.1209809 L114.588394,30.1209809 L98.8223475,30.1209809 Z" id="Fill-9" fill="#00324F"></path>
-                                <g id="Group-13" transform="translate(235.399991, 0.000000)">
-                                    <mask id="mask-3" fill="white">
-                                        <use xlink:href="#path-2"></use>
-                                    </mask>
-                                    <g id="Clip-12"></g>
-                                    <path d="M20.6001623,30.6015302 C18.6765594,30.6015302 16.6568934,30.5054672 14.3490385,30.4094042 C8.10025774,30.1212152 4.06326889,28.6779272 2.13966596,26.0842263 C0.797127007,24.1606234 0.508938017,21.7567055 1.37116199,18.3921576 C2.13966596,15.2197357 3.29476492,12.1433768 4.83411586,9.26148693 C8.58057272,2.0497332 12.4301216,0.32059926 25.6961871,0.0324102708 L29.058392,0.0324102708 C31.4623099,0.0324102708 34.0560108,0.0324102708 35.8835507,0.128473267 C42.5165835,0.416662257 46.6496353,1.66548121 48.3811123,4.06939912 C49.7283372,5.89459606 49.9204632,8.49063996 48.8637703,12.2394398 C48.1889863,15.2197357 47.1299503,18.1039686 45.6913484,20.7960755 C42.0362685,27.8133603 37.1347127,30.1212152 24.4450251,30.6015302 L20.6001623,30.6015302 Z M29.63477,4.06939912 L28.095419,4.06939912 C20.6001623,4.26152512 17.6198664,5.60640707 15.3096685,9.74180192 C13.8687235,12.4315658 12.7183106,15.2197357 11.9474636,18.2000316 C11.4671486,20.0275715 11.0828966,22.1409575 12.2356526,23.7763714 C13.2946886,25.2173164 15.5017945,25.9881633 19.1592173,26.1802893 C19.6395323,26.1802893 20.1198473,26.1802893 20.6938823,26.2763523 L22.1348272,26.2763523 C30.2134909,26.0842263 32.8095348,24.8330644 35.4992987,19.9315085 C36.7504607,17.5275906 37.6150277,14.9338897 38.2874686,12.3355028 C38.8638466,10.3181799 39.2480986,8.10638798 38.0953426,6.56938003 C37.0386497,5.12609208 35.0166408,4.45365111 31.0780579,4.26152512 C30.6938059,4.06939912 30.2134909,4.06939912 29.63477,4.06939912 L29.63477,3.58908414 L29.63477,4.06939912 Z" id="Fill-11" fill="#00324F" mask="url(#mask-3)"></path>
-                                </g>
-                                <path d="M0,30.0249179 L10.4778956,0.800679943 L34.3155767,0.800679943 C38.2611886,0.800679943 40.8548895,0.800679943 43.3548704,0.992805936 C46.1430403,1.18493193 48.1627062,2.14556189 49.2193992,3.58884984 C50.0839662,5.02979479 50.2760922,6.85733472 49.6997142,8.39434267 C49.4115252,9.35731563 49.1233362,10.2218826 48.6430212,11.0864496 C46.7170753,15.0273754 44.1233744,17.7194823 37.3942786,18.1037343 C36.4336487,18.1997973 34.3155767,18.1997973 33.4533528,18.1997973 L27.012446,18.1997973 C24.8029971,18.1997973 24.4164021,17.8155453 22.7833312,16.2785374 C22.3030162,15.7982224 21.8227012,15.3179074 21.2463232,14.7391864 L20.4754763,13.8746195 L29.4163639,13.8746195 C30.9533719,13.8746195 32.1084708,13.7785565 32.9730378,13.7785565 C36.2415227,13.5864305 37.6824676,13.0100525 39.0296926,11.0864496 C39.6060706,10.2218826 39.9903225,9.35731563 40.2785115,8.29827967 C40.5667005,7.5297757 40.4706375,6.56914573 39.9903225,5.89670476 C39.3178816,5.12585778 38.2611886,4.6455428 37.2982156,4.6455428 C36.1454597,4.54947981 35.0887667,4.45341681 33.9336678,4.54947981 L19.8990983,4.54947981 L10.7660846,29.8327919 L0,29.8327919 L0,30.0249179 Z" id="Fill-14" fill="#00324F"></path>
-                                <path d="M145.735063,30.0249179 L140.641381,30.0249179 L139.486283,30.0249179 L139.774471,29.3524769 C140.446912,27.909189 140.833507,27.044622 141.025633,26.756433 C141.505948,25.795803 141.794137,25.795803 143.045299,25.795803 L144.200398,25.795803 L165.442036,25.795803 C166.690855,25.795803 167.848296,25.69974 169.001052,25.603677 C170.922312,25.411551 172.45932,23.9682631 172.843572,22.0470032 C173.035698,20.3155262 171.786879,19.8352112 170.345934,19.5470223 L168.136485,19.0667073 C168.040422,19.0667073 156.981463,16.5667264 153.328726,15.7021594 C149.678332,14.8352494 147.46654,13.5864305 146.791756,12.1454855 C146.407504,11.2785756 146.407504,10.2218826 146.791756,9.35731563 C147.850792,5.70457876 150.831088,2.91640887 154.483825,1.9534359 C157.75231,1.08886893 161.212921,0.800679943 164.577469,0.896742939 L191.301726,0.896742939 L192.07023,0.896742939 L191.782041,1.56918391 C191.685978,1.8573729 191.493852,2.14556189 191.493852,2.34003089 C190.437159,4.6455428 190.052907,4.8376688 186.205701,4.8376688 L164.673532,4.8376688 C163.905028,4.8376688 163.136524,4.93373179 162.36802,5.02979479 C160.348354,5.41404677 159.001129,6.47308274 158.809003,8.01009068 C158.616877,9.45337863 159.865696,9.93369361 161.695579,10.4140086 C163.42237,10.8943236 167.077449,11.7588905 170.826249,12.6258005 L171.306564,12.7218635 C173.131761,13.1061155 174.961644,13.5864305 176.592372,13.9706825 C177.651408,14.2588715 178.612038,14.4509974 179.476605,14.7391864 L180.151389,14.9313124 C183.227748,15.7021594 184.764756,16.6627894 185.437197,18.1037343 C185.821449,19.0667073 185.821449,20.1234002 185.53326,21.1800932 C184.380504,25.0249561 181.402551,28.0052519 177.555345,29.2564139 C174.673455,29.8327919 171.690816,30.1209809 168.712863,30.1209809 L161.405047,30.1209809 C154.00351,30.0249179 150.25471,30.0249179 145.735063,30.0249179" id="Fill-16" fill="#00324F"></path>
-                            </g>
+                    <g id="Badge/Passport/Redesigned/1400_WHITE" stroke="none" stroke-width="1" fill="none"
+                      fill-rule="evenodd">
+                      <g filter="url(#filter-1)" id="Group-18">
+                        <g transform="translate(0.000000, 29.110121)">
+                          <path
+                            d="M346.363569,30.1209809 L346.555695,29.4485399 C347.321856,27.428874 353.669042,10.0297566 353.957231,9.16518964 L354.149357,8.68253165 C354.533609,7.5297757 355.013924,6.47308274 354.341483,5.60851577 C353.957231,5.12585778 353.188727,4.93373179 351.747782,4.93373179 C350.784809,4.93373179 348.380892,4.93373179 344.536029,4.8376688 L337.518744,4.8376688 L336.846303,4.8376688 L338.289591,0.896742939 L386.351548,0.896742939 L386.063359,1.56918391 C385.871233,2.0494989 385.77517,2.34003089 385.679107,2.43609388 L385.583044,2.62821988 C385.390918,3.20459785 384.910603,3.78097583 384.336568,4.16522782 C383.661784,4.54947981 382.797217,4.6455428 382.028713,4.6455428 L381.740524,4.6455428 C381.164146,4.8376688 380.294893,4.8376688 379.14448,4.8376688 L375.203555,4.8376688 C373.661861,4.8376688 372.223259,4.93373179 370.683908,5.12585778 C367.895738,5.51010977 366.836702,6.08883075 365.590226,8.01009068 C364.629596,9.74156762 363.858749,11.5667645 363.186308,13.4903675 C361.839083,17.2391673 358.188689,27.044622 357.225716,29.8327919 L357.129653,30.1209809 L346.363569,30.1209809 Z"
+                            id="Fill-1" fill="#00324F"></path>
+                          <path
+                            d="M78.7329976,29.9286206 L77.6763047,22.7192098 L53.6394685,22.7192098 L53.4496855,22.9113358 C50.3733267,26.1798207 47.7772828,28.7758646 46.9103728,29.7364946 L46.7205898,29.9286206 L36.6246032,29.9286206 L58.1614584,8.78070335 C58.7378364,8.20198237 59.3142143,7.62560439 59.8882493,7.04922641 C61.2354743,5.70434446 62.4842932,4.45318251 63.4472662,3.58861554 C64.8905541,2.0516076 66.9055341,1.18469763 69.021263,1.08863463 C70.5629569,0.896508639 72.5779368,0.896508639 73.2503778,0.896508639 L82.9621125,0.896508639 L84.5975264,0.896508639 L89.0187672,30.0246836 L78.7329976,29.9286206 Z M77.0975837,18.586158 L75.0779178,4.7413715 L73.1543148,4.7413715 C71.5235869,4.7413715 71.1393349,5.02956049 69.696047,6.28072244 C69.021263,6.85710042 65.3708691,10.7019633 58.7378364,17.527122 L57.6811434,18.586158 L77.0975837,18.586158 Z"
+                            id="Fill-3" fill="#00324F"></path>
+                          <path
+                            d="M187.458269,30.0249179 L197.936164,0.800679943 L221.776188,0.800679943 C225.717114,0.800679943 228.313158,0.800679943 230.813139,0.992805936 C233.598966,1.18493193 235.620975,2.14556189 236.677668,3.58884984 C237.539892,5.02979479 237.732018,6.85733472 237.15564,8.39434267 C236.869794,9.35731563 236.581605,10.2218826 236.10129,11.0864496 C234.175344,15.0273754 231.581643,17.7194823 224.85489,18.1037343 C223.891917,18.1997973 221.776188,18.1997973 220.909278,18.1997973 L214.468372,18.1997973 C212.261266,18.1997973 211.872328,17.8155453 210.2416,16.2785374 C209.761285,15.7982224 209.278627,15.3179074 208.702249,14.7391864 L207.931402,13.8746195 L216.874632,13.8746195 C218.41164,13.8746195 219.564396,13.7785565 220.428963,13.7785565 C223.699791,13.5864305 225.143079,13.0100525 226.485618,11.0864496 C227.061996,10.2218826 227.446248,9.35731563 227.734437,8.29827967 C228.022626,7.5297757 227.926563,6.56914573 227.446248,5.89670476 C226.773807,5.12585778 225.717114,4.6455428 224.754141,4.6455428 C223.603728,4.8376688 222.547035,4.8376688 221.389593,4.8376688 L207.258961,4.8376688 L198.12829,30.0249179 L187.458269,30.0249179 Z"
+                            id="Fill-5" fill="#00324F"></path>
+                          <path
+                            d="M323.581175,30.1209809 C318.965465,30.1209809 318.770996,30.1209809 316.849736,28.2934409 C316.65761,28.1013149 316.371764,27.909189 316.179638,27.621 C315.408791,26.852496 311.273396,22.5273181 307.716722,18.7785183 L303.393887,14.1628085 L312.234026,14.1628085 C313.773377,14.1628085 314.928476,14.0667455 315.795386,14.0667455 C319.061528,13.8746195 320.504816,13.2982415 321.849698,11.3746386 C322.428419,10.5100716 322.812671,9.64550462 323.10086,8.58646866 C323.389049,7.81796469 323.292986,6.85733472 322.812671,6.18489375 C322.14023,5.41404677 321.081194,4.93373179 320.118221,4.93373179 C318.965465,4.8376688 317.906429,4.7416058 316.753673,4.8376688 L302.625383,4.8376688 L293.490027,30.0249179 L282.627879,30.0249179 L293.105775,0.992805936 L316.945799,0.992805936 C320.889068,0.992805936 323.485112,0.992805936 325.98275,1.18493193 C328.773262,1.37705792 330.788242,2.34003089 331.844935,3.78097583 C332.711845,5.22192078 332.903971,7.04946071 332.327593,8.58646866 C332.037061,9.54944162 331.748872,10.4140086 331.268557,11.2785756 C329.347297,15.2195014 326.753597,17.9116083 320.022158,18.2958603 L319.44578,18.2958603 L318.002492,18.3919233 L329.635486,30.0249179 C329.827612,30.1209809 323.963084,30.1209809 323.581175,30.1209809"
+                            id="Fill-7" fill="#00324F"></path>
+                          <path
+                            d="M98.8223475,30.1209809 L93.7286657,30.1209809 L92.5735667,30.1209809 L92.8617557,29.4485399 C93.5341967,28.0052519 93.9207917,27.140685 94.1129177,26.852496 C94.5932326,25.891866 94.8814216,25.891866 96.1325836,25.891866 L97.2876825,25.891866 L118.52932,25.891866 C119.778139,25.891866 120.935581,25.795803 122.088337,25.69974 C124.009597,25.507614 125.546605,24.0643261 125.930856,22.1430662 C126.122982,20.4115892 124.874164,19.9312742 123.435562,19.6430853 L121.22377,19.1627703 C121.127707,19.1627703 110.07109,16.6627894 106.41601,15.7982224 C102.765616,14.9313124 100.553824,13.6824935 99.8790405,12.2415485 C99.4947885,11.3746386 99.4947885,10.3179456 99.8790405,9.45337863 C100.938076,5.80064176 103.920715,3.01247186 107.571109,2.0494989 C110.841937,1.18493193 114.300205,0.896742939 117.667096,0.992805936 L144.38901,0.992805936 L145.157514,0.992805936 L144.869325,1.66524691 C144.773262,1.9534359 144.581136,2.24162489 144.581136,2.43609388 C143.620506,4.6455428 143.236254,4.8376688 139.389048,4.8376688 L117.856879,4.8376688 C117.090718,4.8376688 116.319871,4.93373179 115.551367,5.02979479 C113.531701,5.41404677 112.184476,6.47308274 111.99235,8.01009068 C111.800224,9.45337863 113.049043,9.93369361 114.878926,10.4140086 C116.60806,10.8943236 120.260797,11.7588905 124.009597,12.6258005 L124.489912,12.7218635 C126.315108,13.1061155 128.144991,13.5864305 129.778062,13.9706825 C130.834755,14.2588715 131.795385,14.4509974 132.659952,14.7391864 L133.334736,14.9313124 C136.411095,15.7021594 137.948103,16.6627894 138.620544,18.1037343 C139.004796,19.0667073 139.004796,20.1234002 138.716607,21.1800932 C137.563851,25.0249561 134.585898,28.0052519 130.738692,29.2564139 C127.856802,29.8327919 124.874164,30.1209809 121.896211,30.1209809 L114.588394,30.1209809 L98.8223475,30.1209809 Z"
+                            id="Fill-9" fill="#00324F"></path>
+                          <g id="Group-13" transform="translate(235.399991, 0.000000)">
+                            <mask id="mask-3" fill="white">
+                              <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Clip-12"></g>
+                            <path
+                              d="M20.6001623,30.6015302 C18.6765594,30.6015302 16.6568934,30.5054672 14.3490385,30.4094042 C8.10025774,30.1212152 4.06326889,28.6779272 2.13966596,26.0842263 C0.797127007,24.1606234 0.508938017,21.7567055 1.37116199,18.3921576 C2.13966596,15.2197357 3.29476492,12.1433768 4.83411586,9.26148693 C8.58057272,2.0497332 12.4301216,0.32059926 25.6961871,0.0324102708 L29.058392,0.0324102708 C31.4623099,0.0324102708 34.0560108,0.0324102708 35.8835507,0.128473267 C42.5165835,0.416662257 46.6496353,1.66548121 48.3811123,4.06939912 C49.7283372,5.89459606 49.9204632,8.49063996 48.8637703,12.2394398 C48.1889863,15.2197357 47.1299503,18.1039686 45.6913484,20.7960755 C42.0362685,27.8133603 37.1347127,30.1212152 24.4450251,30.6015302 L20.6001623,30.6015302 Z M29.63477,4.06939912 L28.095419,4.06939912 C20.6001623,4.26152512 17.6198664,5.60640707 15.3096685,9.74180192 C13.8687235,12.4315658 12.7183106,15.2197357 11.9474636,18.2000316 C11.4671486,20.0275715 11.0828966,22.1409575 12.2356526,23.7763714 C13.2946886,25.2173164 15.5017945,25.9881633 19.1592173,26.1802893 C19.6395323,26.1802893 20.1198473,26.1802893 20.6938823,26.2763523 L22.1348272,26.2763523 C30.2134909,26.0842263 32.8095348,24.8330644 35.4992987,19.9315085 C36.7504607,17.5275906 37.6150277,14.9338897 38.2874686,12.3355028 C38.8638466,10.3181799 39.2480986,8.10638798 38.0953426,6.56938003 C37.0386497,5.12609208 35.0166408,4.45365111 31.0780579,4.26152512 C30.6938059,4.06939912 30.2134909,4.06939912 29.63477,4.06939912 L29.63477,3.58908414 L29.63477,4.06939912 Z"
+                              id="Fill-11" fill="#00324F" mask="url(#mask-3)"></path>
+                          </g>
+                          <path
+                            d="M0,30.0249179 L10.4778956,0.800679943 L34.3155767,0.800679943 C38.2611886,0.800679943 40.8548895,0.800679943 43.3548704,0.992805936 C46.1430403,1.18493193 48.1627062,2.14556189 49.2193992,3.58884984 C50.0839662,5.02979479 50.2760922,6.85733472 49.6997142,8.39434267 C49.4115252,9.35731563 49.1233362,10.2218826 48.6430212,11.0864496 C46.7170753,15.0273754 44.1233744,17.7194823 37.3942786,18.1037343 C36.4336487,18.1997973 34.3155767,18.1997973 33.4533528,18.1997973 L27.012446,18.1997973 C24.8029971,18.1997973 24.4164021,17.8155453 22.7833312,16.2785374 C22.3030162,15.7982224 21.8227012,15.3179074 21.2463232,14.7391864 L20.4754763,13.8746195 L29.4163639,13.8746195 C30.9533719,13.8746195 32.1084708,13.7785565 32.9730378,13.7785565 C36.2415227,13.5864305 37.6824676,13.0100525 39.0296926,11.0864496 C39.6060706,10.2218826 39.9903225,9.35731563 40.2785115,8.29827967 C40.5667005,7.5297757 40.4706375,6.56914573 39.9903225,5.89670476 C39.3178816,5.12585778 38.2611886,4.6455428 37.2982156,4.6455428 C36.1454597,4.54947981 35.0887667,4.45341681 33.9336678,4.54947981 L19.8990983,4.54947981 L10.7660846,29.8327919 L0,29.8327919 L0,30.0249179 Z"
+                            id="Fill-14" fill="#00324F"></path>
+                          <path
+                            d="M145.735063,30.0249179 L140.641381,30.0249179 L139.486283,30.0249179 L139.774471,29.3524769 C140.446912,27.909189 140.833507,27.044622 141.025633,26.756433 C141.505948,25.795803 141.794137,25.795803 143.045299,25.795803 L144.200398,25.795803 L165.442036,25.795803 C166.690855,25.795803 167.848296,25.69974 169.001052,25.603677 C170.922312,25.411551 172.45932,23.9682631 172.843572,22.0470032 C173.035698,20.3155262 171.786879,19.8352112 170.345934,19.5470223 L168.136485,19.0667073 C168.040422,19.0667073 156.981463,16.5667264 153.328726,15.7021594 C149.678332,14.8352494 147.46654,13.5864305 146.791756,12.1454855 C146.407504,11.2785756 146.407504,10.2218826 146.791756,9.35731563 C147.850792,5.70457876 150.831088,2.91640887 154.483825,1.9534359 C157.75231,1.08886893 161.212921,0.800679943 164.577469,0.896742939 L191.301726,0.896742939 L192.07023,0.896742939 L191.782041,1.56918391 C191.685978,1.8573729 191.493852,2.14556189 191.493852,2.34003089 C190.437159,4.6455428 190.052907,4.8376688 186.205701,4.8376688 L164.673532,4.8376688 C163.905028,4.8376688 163.136524,4.93373179 162.36802,5.02979479 C160.348354,5.41404677 159.001129,6.47308274 158.809003,8.01009068 C158.616877,9.45337863 159.865696,9.93369361 161.695579,10.4140086 C163.42237,10.8943236 167.077449,11.7588905 170.826249,12.6258005 L171.306564,12.7218635 C173.131761,13.1061155 174.961644,13.5864305 176.592372,13.9706825 C177.651408,14.2588715 178.612038,14.4509974 179.476605,14.7391864 L180.151389,14.9313124 C183.227748,15.7021594 184.764756,16.6627894 185.437197,18.1037343 C185.821449,19.0667073 185.821449,20.1234002 185.53326,21.1800932 C184.380504,25.0249561 181.402551,28.0052519 177.555345,29.2564139 C174.673455,29.8327919 171.690816,30.1209809 168.712863,30.1209809 L161.405047,30.1209809 C154.00351,30.0249179 150.25471,30.0249179 145.735063,30.0249179"
+                            id="Fill-16" fill="#00324F"></path>
                         </g>
-                        <g filter="url(#filter-4)" id="Group">
-                            <g transform="translate(1.000000, 0.000000)">
-                                <path d="M384.713425,11.4332828 L252.5,11.5 M133.359852,11.4332828 L0.5,11.5" id="Eyebrow" stroke="#00324F" stroke-width="2.432" stroke-linecap="round"></path>
-                                <path d="M152.479629,17.144 C153.019629,17.144 153.379629,16.766 153.379629,16.262 C153.379629,16.1 153.343629,15.902 153.181629,15.65 L150.193629,11.15 C152.011629,10.844 153.271629,9.656 153.271629,7.784 C153.271629,5.192 151.201629,4.256 148.735629,4.256 L145.711629,4.256 C144.991629,4.256 144.649629,4.598 144.649629,5.318 L144.649629,16.136 C144.649629,16.982 145.243629,17.144 145.549629,17.144 C145.837629,17.144 146.431629,16.982 146.431629,16.136 L146.431629,11.33 L148.339629,11.33 L151.687629,16.658 C151.921629,17.036 152.227629,17.144 152.479629,17.144 Z M148.483629,9.836 L146.431629,9.836 L146.431629,5.768 L148.609629,5.768 C150.157629,5.768 151.471629,6.254 151.471629,7.784 C151.471629,9.314 150.157629,9.836 148.483629,9.836 Z M159.553629,17.234 C160.903629,17.234 161.965629,16.802 162.793629,15.956 C163.009629,15.722 163.063629,15.488 163.063629,15.344 C163.063629,14.912 162.739629,14.642 162.343629,14.642 C162.163629,14.642 161.983629,14.696 161.749629,14.912 C161.227629,15.398 160.579629,15.83 159.553629,15.83 C158.059629,15.83 156.835629,14.696 156.781629,13.238 L162.649629,13.238 C163.243629,13.238 163.549629,12.968 163.549629,12.374 C163.549629,12.194 163.549629,12.068 163.513629,11.816 C163.189629,9.476 161.605629,8.234 159.463629,8.234 C156.961629,8.234 155.053629,10.088 155.053629,12.752 C155.053629,15.434 156.961629,17.234 159.553629,17.234 Z M161.857629,11.978 L156.781629,11.978 C156.889629,10.646 158.005629,9.566 159.463629,9.566 C161.029629,9.566 161.821629,10.628 161.857629,11.978 Z M169.651629,17.234 C170.857629,17.234 172.081629,16.676 172.729629,15.65 L172.765629,15.65 L172.765629,16.244 C172.765629,17.018 173.323629,17.144 173.593629,17.144 C173.845629,17.144 174.403629,17.018 174.403629,16.244 L174.403629,4.184 C174.403629,3.392 173.845629,3.248 173.557629,3.248 C173.287629,3.248 172.711629,3.392 172.711629,4.184 L172.711629,9.746 L172.675629,9.746 C172.081629,8.918 171.019629,8.234 169.633629,8.234 C167.077629,8.234 165.349629,10.196 165.349629,12.716 C165.349629,15.218 167.023629,17.234 169.651629,17.234 Z M169.939629,15.812 C168.085629,15.812 167.113629,14.318 167.113629,12.716 C167.113629,11.114 168.085629,9.638 169.939629,9.638 C171.667629,9.638 172.819629,11.096 172.819629,12.734 C172.819629,14.372 171.667629,15.812 169.939629,15.812 Z M181.297629,17.234 C182.647629,17.234 183.709629,16.802 184.537629,15.956 C184.753629,15.722 184.807629,15.488 184.807629,15.344 C184.807629,14.912 184.483629,14.642 184.087629,14.642 C183.907629,14.642 183.727629,14.696 183.493629,14.912 C182.971629,15.398 182.323629,15.83 181.297629,15.83 C179.803629,15.83 178.579629,14.696 178.525629,13.238 L184.393629,13.238 C184.987629,13.238 185.293629,12.968 185.293629,12.374 C185.293629,12.194 185.293629,12.068 185.257629,11.816 C184.933629,9.476 183.349629,8.234 181.207629,8.234 C178.705629,8.234 176.797629,10.088 176.797629,12.752 C176.797629,15.434 178.705629,17.234 181.297629,17.234 Z M183.601629,11.978 L178.525629,11.978 C178.633629,10.646 179.749629,9.566 181.207629,9.566 C182.773629,9.566 183.565629,10.628 183.601629,11.978 Z M190.117629,17.234 C191.845629,17.234 193.519629,16.496 193.519629,14.48 C193.519629,12.968 192.277629,12.32 190.657629,11.96 C189.361629,11.672 188.713629,11.402 188.713629,10.682 C188.713629,9.872 189.523629,9.566 190.297629,9.566 C190.873629,9.566 191.431629,9.746 191.935629,10.214 C192.133629,10.394 192.313629,10.466 192.475629,10.466 C192.925629,10.466 193.213629,10.124 193.213629,9.728 C193.213629,9.566 193.141629,9.314 192.817629,9.044 C192.187629,8.504 191.269629,8.234 190.351629,8.234 C188.731629,8.234 187.129629,9.008 187.129629,10.844 C187.129629,12.464 188.479629,12.932 189.613629,13.202 C191.071629,13.544 191.845629,13.832 191.845629,14.624 C191.845629,15.56 190.999629,15.866 190.153629,15.866 C189.451629,15.866 188.857629,15.578 188.317629,15.11 C188.083629,14.912 187.885629,14.84 187.687629,14.84 C187.255629,14.84 186.949629,15.164 186.949629,15.596 C186.949629,15.758 187.021629,16.028 187.309629,16.28 C188.029629,16.91 189.091629,17.234 190.117629,17.234 Z M196.525629,6.47 C197.137629,6.47 197.659629,6.002 197.659629,5.39 C197.659629,4.76 197.137629,4.292 196.525629,4.292 C195.913629,4.292 195.409629,4.778 195.409629,5.39 C195.409629,5.984 195.913629,6.47 196.525629,6.47 Z M196.525629,17.144 C196.813629,17.144 197.371629,17 197.371629,16.208 L197.371629,9.26 C197.371629,8.468 196.813629,8.324 196.525629,8.324 C196.237629,8.324 195.679629,8.468 195.679629,9.26 L195.679629,16.208 C195.679629,17 196.237629,17.144 196.525629,17.144 Z M204.085629,21.32 C207.631629,21.32 208.801629,19.052 208.801629,16.568 L208.801629,9.224 C208.801629,8.45 208.243629,8.324 207.991629,8.324 C207.721629,8.324 207.163629,8.45 207.163629,9.224 L207.163629,9.836 L207.127629,9.836 C206.479629,8.774 205.273629,8.234 204.049629,8.234 C201.439629,8.234 199.765629,10.232 199.765629,12.68 C199.765629,15.128 201.457629,17.072 204.067629,17.072 C205.273629,17.072 206.443629,16.55 207.073629,15.596 L207.109629,15.596 L207.109629,16.694 C207.109629,18.458 206.353629,19.844 204.103629,19.844 C203.203629,19.844 202.339629,19.502 201.511629,18.854 C201.241629,18.656 201.061629,18.602 200.863629,18.602 C200.377629,18.602 200.071629,18.98 200.071629,19.394 C200.071629,19.61 200.179629,19.88 200.503629,20.132 C201.421629,20.87 202.789629,21.32 204.085629,21.32 Z M204.337629,15.65 C202.555629,15.65 201.511629,14.21 201.511629,12.644 C201.511629,11.006 202.555629,9.638 204.337629,9.638 C206.065629,9.638 207.235629,11.024 207.235629,12.644 C207.235629,14.336 206.083629,15.65 204.337629,15.65 Z M218.467629,17.144 C218.755629,17.144 219.313629,17 219.313629,16.208 L219.313629,11.708 C219.313629,9.8 218.323629,8.234 216.127629,8.234 C214.903629,8.234 213.769629,8.954 213.355629,9.872 L213.301629,9.872 L213.301629,9.224 C213.301629,8.45 212.761629,8.324 212.509629,8.324 C212.239629,8.324 211.699629,8.45 211.699629,9.224 L211.699629,16.208 C211.699629,17 212.257629,17.144 212.545629,17.144 C212.833629,17.144 213.391629,17 213.391629,16.208 L213.391629,12.464 C213.391629,10.772 214.345629,9.656 215.677629,9.656 C217.243629,9.656 217.621629,10.88 217.621629,12.266 L217.621629,16.208 C217.621629,17 218.179629,17.144 218.467629,17.144 Z M226.117629,17.234 C227.467629,17.234 228.529629,16.802 229.357629,15.956 C229.573629,15.722 229.627629,15.488 229.627629,15.344 C229.627629,14.912 229.303629,14.642 228.907629,14.642 C228.727629,14.642 228.547629,14.696 228.313629,14.912 C227.791629,15.398 227.143629,15.83 226.117629,15.83 C224.623629,15.83 223.399629,14.696 223.345629,13.238 L229.213629,13.238 C229.807629,13.238 230.113629,12.968 230.113629,12.374 C230.113629,12.194 230.113629,12.068 230.077629,11.816 C229.753629,9.476 228.169629,8.234 226.027629,8.234 C223.525629,8.234 221.617629,10.088 221.617629,12.752 C221.617629,15.434 223.525629,17.234 226.117629,17.234 Z M228.421629,11.978 L223.345629,11.978 C223.453629,10.646 224.569629,9.566 226.027629,9.566 C227.593629,9.566 228.385629,10.628 228.421629,11.978 Z M236.215629,17.234 C237.421629,17.234 238.645629,16.676 239.293629,15.65 L239.329629,15.65 L239.329629,16.244 C239.329629,17.018 239.887629,17.144 240.157629,17.144 C240.409629,17.144 240.967629,17.018 240.967629,16.244 L240.967629,4.184 C240.967629,3.392 240.409629,3.248 240.121629,3.248 C239.851629,3.248 239.275629,3.392 239.275629,4.184 L239.275629,9.746 L239.239629,9.746 C238.645629,8.918 237.583629,8.234 236.197629,8.234 C233.641629,8.234 231.913629,10.196 231.913629,12.716 C231.913629,15.218 233.587629,17.234 236.215629,17.234 Z M236.503629,15.812 C234.649629,15.812 233.677629,14.318 233.677629,12.716 C233.677629,11.114 234.649629,9.638 236.503629,9.638 C238.231629,9.638 239.383629,11.096 239.383629,12.734 C239.383629,14.372 238.231629,15.812 236.503629,15.812 Z" id="Redesigned" fill="#00324F" fill-rule="nonzero"></path>
-                            </g>
+                      </g>
+                      <g filter="url(#filter-4)" id="Group">
+                        <g transform="translate(1.000000, 0.000000)">
+                          <path d="M384.713425,11.4332828 L252.5,11.5 M133.359852,11.4332828 L0.5,11.5" id="Eyebrow"
+                            stroke="#00324F" stroke-width="2.432" stroke-linecap="round"></path>
+                          <path
+                            d="M152.479629,17.144 C153.019629,17.144 153.379629,16.766 153.379629,16.262 C153.379629,16.1 153.343629,15.902 153.181629,15.65 L150.193629,11.15 C152.011629,10.844 153.271629,9.656 153.271629,7.784 C153.271629,5.192 151.201629,4.256 148.735629,4.256 L145.711629,4.256 C144.991629,4.256 144.649629,4.598 144.649629,5.318 L144.649629,16.136 C144.649629,16.982 145.243629,17.144 145.549629,17.144 C145.837629,17.144 146.431629,16.982 146.431629,16.136 L146.431629,11.33 L148.339629,11.33 L151.687629,16.658 C151.921629,17.036 152.227629,17.144 152.479629,17.144 Z M148.483629,9.836 L146.431629,9.836 L146.431629,5.768 L148.609629,5.768 C150.157629,5.768 151.471629,6.254 151.471629,7.784 C151.471629,9.314 150.157629,9.836 148.483629,9.836 Z M159.553629,17.234 C160.903629,17.234 161.965629,16.802 162.793629,15.956 C163.009629,15.722 163.063629,15.488 163.063629,15.344 C163.063629,14.912 162.739629,14.642 162.343629,14.642 C162.163629,14.642 161.983629,14.696 161.749629,14.912 C161.227629,15.398 160.579629,15.83 159.553629,15.83 C158.059629,15.83 156.835629,14.696 156.781629,13.238 L162.649629,13.238 C163.243629,13.238 163.549629,12.968 163.549629,12.374 C163.549629,12.194 163.549629,12.068 163.513629,11.816 C163.189629,9.476 161.605629,8.234 159.463629,8.234 C156.961629,8.234 155.053629,10.088 155.053629,12.752 C155.053629,15.434 156.961629,17.234 159.553629,17.234 Z M161.857629,11.978 L156.781629,11.978 C156.889629,10.646 158.005629,9.566 159.463629,9.566 C161.029629,9.566 161.821629,10.628 161.857629,11.978 Z M169.651629,17.234 C170.857629,17.234 172.081629,16.676 172.729629,15.65 L172.765629,15.65 L172.765629,16.244 C172.765629,17.018 173.323629,17.144 173.593629,17.144 C173.845629,17.144 174.403629,17.018 174.403629,16.244 L174.403629,4.184 C174.403629,3.392 173.845629,3.248 173.557629,3.248 C173.287629,3.248 172.711629,3.392 172.711629,4.184 L172.711629,9.746 L172.675629,9.746 C172.081629,8.918 171.019629,8.234 169.633629,8.234 C167.077629,8.234 165.349629,10.196 165.349629,12.716 C165.349629,15.218 167.023629,17.234 169.651629,17.234 Z M169.939629,15.812 C168.085629,15.812 167.113629,14.318 167.113629,12.716 C167.113629,11.114 168.085629,9.638 169.939629,9.638 C171.667629,9.638 172.819629,11.096 172.819629,12.734 C172.819629,14.372 171.667629,15.812 169.939629,15.812 Z M181.297629,17.234 C182.647629,17.234 183.709629,16.802 184.537629,15.956 C184.753629,15.722 184.807629,15.488 184.807629,15.344 C184.807629,14.912 184.483629,14.642 184.087629,14.642 C183.907629,14.642 183.727629,14.696 183.493629,14.912 C182.971629,15.398 182.323629,15.83 181.297629,15.83 C179.803629,15.83 178.579629,14.696 178.525629,13.238 L184.393629,13.238 C184.987629,13.238 185.293629,12.968 185.293629,12.374 C185.293629,12.194 185.293629,12.068 185.257629,11.816 C184.933629,9.476 183.349629,8.234 181.207629,8.234 C178.705629,8.234 176.797629,10.088 176.797629,12.752 C176.797629,15.434 178.705629,17.234 181.297629,17.234 Z M183.601629,11.978 L178.525629,11.978 C178.633629,10.646 179.749629,9.566 181.207629,9.566 C182.773629,9.566 183.565629,10.628 183.601629,11.978 Z M190.117629,17.234 C191.845629,17.234 193.519629,16.496 193.519629,14.48 C193.519629,12.968 192.277629,12.32 190.657629,11.96 C189.361629,11.672 188.713629,11.402 188.713629,10.682 C188.713629,9.872 189.523629,9.566 190.297629,9.566 C190.873629,9.566 191.431629,9.746 191.935629,10.214 C192.133629,10.394 192.313629,10.466 192.475629,10.466 C192.925629,10.466 193.213629,10.124 193.213629,9.728 C193.213629,9.566 193.141629,9.314 192.817629,9.044 C192.187629,8.504 191.269629,8.234 190.351629,8.234 C188.731629,8.234 187.129629,9.008 187.129629,10.844 C187.129629,12.464 188.479629,12.932 189.613629,13.202 C191.071629,13.544 191.845629,13.832 191.845629,14.624 C191.845629,15.56 190.999629,15.866 190.153629,15.866 C189.451629,15.866 188.857629,15.578 188.317629,15.11 C188.083629,14.912 187.885629,14.84 187.687629,14.84 C187.255629,14.84 186.949629,15.164 186.949629,15.596 C186.949629,15.758 187.021629,16.028 187.309629,16.28 C188.029629,16.91 189.091629,17.234 190.117629,17.234 Z M196.525629,6.47 C197.137629,6.47 197.659629,6.002 197.659629,5.39 C197.659629,4.76 197.137629,4.292 196.525629,4.292 C195.913629,4.292 195.409629,4.778 195.409629,5.39 C195.409629,5.984 195.913629,6.47 196.525629,6.47 Z M196.525629,17.144 C196.813629,17.144 197.371629,17 197.371629,16.208 L197.371629,9.26 C197.371629,8.468 196.813629,8.324 196.525629,8.324 C196.237629,8.324 195.679629,8.468 195.679629,9.26 L195.679629,16.208 C195.679629,17 196.237629,17.144 196.525629,17.144 Z M204.085629,21.32 C207.631629,21.32 208.801629,19.052 208.801629,16.568 L208.801629,9.224 C208.801629,8.45 208.243629,8.324 207.991629,8.324 C207.721629,8.324 207.163629,8.45 207.163629,9.224 L207.163629,9.836 L207.127629,9.836 C206.479629,8.774 205.273629,8.234 204.049629,8.234 C201.439629,8.234 199.765629,10.232 199.765629,12.68 C199.765629,15.128 201.457629,17.072 204.067629,17.072 C205.273629,17.072 206.443629,16.55 207.073629,15.596 L207.109629,15.596 L207.109629,16.694 C207.109629,18.458 206.353629,19.844 204.103629,19.844 C203.203629,19.844 202.339629,19.502 201.511629,18.854 C201.241629,18.656 201.061629,18.602 200.863629,18.602 C200.377629,18.602 200.071629,18.98 200.071629,19.394 C200.071629,19.61 200.179629,19.88 200.503629,20.132 C201.421629,20.87 202.789629,21.32 204.085629,21.32 Z M204.337629,15.65 C202.555629,15.65 201.511629,14.21 201.511629,12.644 C201.511629,11.006 202.555629,9.638 204.337629,9.638 C206.065629,9.638 207.235629,11.024 207.235629,12.644 C207.235629,14.336 206.083629,15.65 204.337629,15.65 Z M218.467629,17.144 C218.755629,17.144 219.313629,17 219.313629,16.208 L219.313629,11.708 C219.313629,9.8 218.323629,8.234 216.127629,8.234 C214.903629,8.234 213.769629,8.954 213.355629,9.872 L213.301629,9.872 L213.301629,9.224 C213.301629,8.45 212.761629,8.324 212.509629,8.324 C212.239629,8.324 211.699629,8.45 211.699629,9.224 L211.699629,16.208 C211.699629,17 212.257629,17.144 212.545629,17.144 C212.833629,17.144 213.391629,17 213.391629,16.208 L213.391629,12.464 C213.391629,10.772 214.345629,9.656 215.677629,9.656 C217.243629,9.656 217.621629,10.88 217.621629,12.266 L217.621629,16.208 C217.621629,17 218.179629,17.144 218.467629,17.144 Z M226.117629,17.234 C227.467629,17.234 228.529629,16.802 229.357629,15.956 C229.573629,15.722 229.627629,15.488 229.627629,15.344 C229.627629,14.912 229.303629,14.642 228.907629,14.642 C228.727629,14.642 228.547629,14.696 228.313629,14.912 C227.791629,15.398 227.143629,15.83 226.117629,15.83 C224.623629,15.83 223.399629,14.696 223.345629,13.238 L229.213629,13.238 C229.807629,13.238 230.113629,12.968 230.113629,12.374 C230.113629,12.194 230.113629,12.068 230.077629,11.816 C229.753629,9.476 228.169629,8.234 226.027629,8.234 C223.525629,8.234 221.617629,10.088 221.617629,12.752 C221.617629,15.434 223.525629,17.234 226.117629,17.234 Z M228.421629,11.978 L223.345629,11.978 C223.453629,10.646 224.569629,9.566 226.027629,9.566 C227.593629,9.566 228.385629,10.628 228.421629,11.978 Z M236.215629,17.234 C237.421629,17.234 238.645629,16.676 239.293629,15.65 L239.329629,15.65 L239.329629,16.244 C239.329629,17.018 239.887629,17.144 240.157629,17.144 C240.409629,17.144 240.967629,17.018 240.967629,16.244 L240.967629,4.184 C240.967629,3.392 240.409629,3.248 240.121629,3.248 C239.851629,3.248 239.275629,3.392 239.275629,4.184 L239.275629,9.746 L239.239629,9.746 C238.645629,8.918 237.583629,8.234 236.197629,8.234 C233.641629,8.234 231.913629,10.196 231.913629,12.716 C231.913629,15.218 233.587629,17.234 236.215629,17.234 Z M236.503629,15.812 C234.649629,15.812 233.677629,14.318 233.677629,12.716 C233.677629,11.114 234.649629,9.638 236.503629,9.638 C238.231629,9.638 239.383629,11.096 239.383629,12.734 C239.383629,14.372 238.231629,15.812 236.503629,15.812 Z"
+                            id="Redesigned" fill="#00324F" fill-rule="nonzero"></path>
                         </g>
+                      </g>
                     </g>
-                </svg>
+                  </svg>
                 </div>
                 <p class="vehicle-desc">
                   With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard
@@ -1185,9 +1321,10 @@
    -->
             </div>
             <div class="item vehicle active">
-              <img src="./img/Vehicles/MY23-HR-V-non-VLP-full-line-1400-2x.webp" class="img-fluid d-none d-md-block" alt="">
+              <img src="./img/Vehicles/MY23-HR-V-non-VLP-full-line-1400-2x.webp" class="img-fluid d-none d-md-block"
+                alt="">
               <img src="./img/Vehicles/suv2-res.webp" class="d-block d-md-none" alt="">
-              
+
               <p class="vehicle-order">
                 <span data-vehicle-type="truck">MINIVAN & TRUCK</span>
                 <span data-vehicle-current="2">2</span>
@@ -1196,26 +1333,31 @@
               </p>
               <div class="vehicle-info">
                 <div class="vehicle-brand">
-                  <svg id="my23-hr-v-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 321 91" role="presentation" aria-hidden="true">
+                  <svg id="my23-hr-v-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 321 91" role="presentation"
+                    aria-hidden="true">
                     <style type="text/css">
-                      #my23-hr-v-white {fill: #fff;}
+                      #my23-hr-v-white {
+                        fill: #fff;
+                      }
                     </style>
-                    
-                      <path d="M217.5,57c-5.4,0-10.7,0-16.1,0c-0.6,0-1.6,0-2.1,0c-0.7,0-1.2,0-1.6,0.1
+
+                    <path
+                      d="M217.5,57c-5.4,0-10.7,0-16.1,0c-0.6,0-1.6,0-2.1,0c-0.7,0-1.2,0-1.6,0.1
                         c-0.3,0.1-0.5,0.2-0.6,0.5c-0.1,0.3-0.2,0.7-0.2,1.3c0,0.4,0,0.8,0,1.2c0,0.9,0,1.8,0,2.7c0,0.7,0.1,1.6,0.1,2c0.1,0.7,0.4,1,1.3,1
                         c0.5,0,1.9,0,2.9,0c5.4,0,10.7,0,16.1,0c0.7,0,1.4,0,1.9,0c0.7,0,1.3,0,1.7-0.1c0.7-0.2,0.7-0.7,0.8-1.7c0.1-1.1,0.1-2.6,0.1-3.7
-                        c0-0.7-0.1-1.8-0.1-2.3c-0.1-0.4-0.2-0.6-0.4-0.8c-0.3-0.3-0.9-0.3-1.9-0.3C219.1,57,218.1,57,217.5,57"></path>
-                      <path d="M82,35.3c0-2.3-1.1-2.3-2.6-2.3c-2.3,0-9.2,0-10.7,0c-2,0-2.2,0.9-2.2,2.7v17.2c0,2.3-1.7,3-3.5,3
+                        c0-0.7-0.1-1.8-0.1-2.3c-0.1-0.4-0.2-0.6-0.4-0.8c-0.3-0.3-0.9-0.3-1.9-0.3C219.1,57,218.1,57,217.5,57">
+                    </path>
+                    <path d="M82,35.3c0-2.3-1.1-2.3-2.6-2.3c-2.3,0-9.2,0-10.7,0c-2,0-2.2,0.9-2.2,2.7v17.2c0,2.3-1.7,3-3.5,3
                         H19.2c-1.8,0-3.5-0.7-3.5-3V35.7c0-1.8-0.2-2.7-2.2-2.7c-1.4,0-8.6,0-10.9,0C1.1,33,0,33,0,35.3v48.3c0,1.8,0.1,2.2,2,2.3
                         c1,0,9.8,0.1,11.9,0c0.1,0,0.2,0,0.3,0c0.8-0.1,1.2-0.2,1.4-0.9c0.1-0.2,0.1-0.5,0.1-0.9c0,0,0-16.9,0-18.6c0-1.7,1.3-2.9,3.4-2.9
                         c1.8,0,41.6,0,44,0c2.1,0,3.4,1.1,3.4,2.9c0,1.7,0,18.6,0,18.6c0,0.4,0,0.7,0.1,0.9c0.2,0.7,0.6,0.8,1.4,0.9c0.1,0,0.2,0,0.3,0
                         c2.1,0.1,10.6,0,11.6,0c1.9-0.1,2-0.5,2-2.3L82,35.3L82,35.3z"></path>
-                      <path d="M295.4,69.7c-2.6,3.5-8,11.2-10.7,14.3c-1.5,1.7-3.9,1.9-6.5,2c-0.9,0-13.3,0-13.7,0
+                    <path d="M295.4,69.7c-2.6,3.5-8,11.2-10.7,14.3c-1.5,1.7-3.9,1.9-6.5,2c-0.9,0-13.3,0-13.7,0
                         c-2.5,0-3.4-0.2-4.8-1.4c-1.3-1.1-4.3-5.3-5.3-6.7c-5.9-8.4-19.4-27.3-25.1-35.4c-1.4-1.9-4.8-6.6-4.8-6.7c-1-1.5-0.6-2.7,1.8-2.7
                         c4.5,0,8.1-0.1,13.8,0c1.8,0,2.3,0.4,3.2,1.7c1,1.4,22.2,31.6,25.3,35.9c1,1.4,3.1,4.6,4.2,5.6c0.9,0.9,2.5,0.7,4.3,0.7
                         c2.1,0,2.5-0.1,3.5-1.3c4.9-5.7,24.5-33.7,28.6-39.4c1.3-1.8,1.8-3,4.3-3.2c1.6-0.1,4.4-0.1,5.3-0.1c2.4,0,2.8,0.7,1.4,2.7
                         C318.8,37.6,298.8,65.1,295.4,69.7"></path>
-                      <path d="M166.6,54.9c-2.4,1.8-5.5,1.9-8.6,1.9c-8.7,0.1-17.2,0.1-25.8,0.1c-3.6,0-7.1,0-10.7,0
+                    <path d="M166.6,54.9c-2.4,1.8-5.5,1.9-8.6,1.9c-8.7,0.1-17.2,0.1-25.8,0.1c-3.6,0-7.1,0-10.7,0
                         c-0.8,0-2.2,0.1-3.2-0.3c-1.4-0.5-1.8-1.5-1.9-3.1c0-1,0-5.8,0-9.3c0-1.4-0.1-2.9,1-3.8c1-0.9,2.8-0.8,4-0.8
                         c11.5-0.1,24.3-0.1,35.9-0.1c2,0,4,0,5.9,0.3c2.2,0.4,3.5,1.4,4,1.9c1.5,1.4,2.3,3.3,2.5,5.4C169.8,50.4,168.7,53.3,166.6,54.9
                          M188,84.9c-0.1-0.7-0.9-1.4-1.2-1.8c-3.2-3.5-6.1-6.6-9-9.7c-1.4-1.5-2.8-3-4.2-4.5c-0.8-0.9-1.7-1.8-2.6-2.8
@@ -1226,9 +1368,14 @@
                         c0-0.8-0.1-2,0.3-2.9c0.7-1.9,2.9-1.8,4.6-1.8c5.2,0,10.3,0,15.5-0.1c2.4,0,7.2-0.1,9.5,0c1.1,0.1,1.8,0.2,2.8,0.8
                         c0.9,0.6,1.7,1.4,2.3,2.1c3.1,3.4,6.2,6.8,9.3,10.2c1.5,1.7,3.5,3.8,5,5.5c0.6,0.6,1.4,1.6,2,2.2c0.4,0.4,1,1,1.5,1.2
                         c0.4,0.2,0.9,0.2,1.5,0.2c5,0.3,9.8,0.3,14.8,0.3C186.5,86,188.1,86.1,188,84.9"></path>
-                      <path d="M104,15.8H1c-0.7,0-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3h103c0.7,0,1.3,0.6,1.3,1.3S104.7,15.8,104,15.8z"></path>
-                      <path d="M320,15.8H217c-0.7,0-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3h103c0.7,0,1.3,0.6,1.3,1.3S320.7,15.8,320,15.8z"></path>
-                      <path d="M131.8,21.2c0.6,0,1.2-0.5,1.2-1.2c0-0.2,0-0.4-0.2-0.7L126.6,5c-0.5-1.1-1.1-1.2-1.5-1.2
+                    <path
+                      d="M104,15.8H1c-0.7,0-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3h103c0.7,0,1.3,0.6,1.3,1.3S104.7,15.8,104,15.8z">
+                    </path>
+                    <path
+                      d="M320,15.8H217c-0.7,0-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3h103c0.7,0,1.3,0.6,1.3,1.3S320.7,15.8,320,15.8z">
+                    </path>
+                    <path
+                      d="M131.8,21.2c0.6,0,1.2-0.5,1.2-1.2c0-0.2,0-0.4-0.2-0.7L126.6,5c-0.5-1.1-1.1-1.2-1.5-1.2
                         c-0.5,0-1.1,0.1-1.5,1.2l-6.4,14.3c-0.1,0.3-0.2,0.5-0.2,0.7c0,0.7,0.6,1.2,1.2,1.2c0.3,0,0.8-0.1,1.2-0.9l1.5-3.5h8.4l1.5,3.5
                         C130.9,21,131.4,21.2,131.8,21.2z M128.3,14.7h-6.6l3.3-7.9L128.3,14.7z M136.7,21.2c0.4,0,1.1-0.2,1.1-1.2V4
                         c0-1.1-0.7-1.2-1.1-1.2c-0.4,0-1.1,0.2-1.1,1.2v16C135.5,21,136.3,21.2,136.7,21.2z M142.9,21.2c0.4,0,1.1-0.2,1.1-1.2V4
@@ -1241,9 +1388,10 @@
                          M182.5,14.3h-6.8c0.1-1.8,1.6-3.2,3.6-3.2C181.4,11.1,182.4,12.5,182.5,14.3z M199.3,21.2c0.5,0,1.2-0.2,1.5-1.2l3-8.9
                         c0.1-0.2,0.1-0.5,0.1-0.6c0-0.6-0.5-1.1-1.1-1.1c-0.4,0-0.8,0.2-1.1,0.9l-2.4,7.9l0,0l-2.6-7.7c-0.3-1-1-1.2-1.4-1.2
                         c-0.5,0-1.1,0.1-1.4,1.2l-2.6,7.7l0,0l-2.4-7.9c-0.2-0.8-0.7-1-1.1-1c-0.6,0-1.2,0.4-1.2,1.1c0,0.1,0,0.3,0.1,0.5l3,8.9
-                        c0.4,1,1.1,1.2,1.5,1.2c0.5,0,1.2-0.2,1.5-1.2l2.5-7.5l0,0l2.5,7.5C198.1,21,198.8,21.2,199.3,21.2z"></path>
-                    
-                    </svg>
+                        c0.4,1,1.1,1.2,1.5,1.2c0.5,0,1.2-0.2,1.5-1.2l2.5-7.5l0,0l2.5,7.5C198.1,21,198.8,21.2,199.3,21.2z">
+                    </path>
+
+                  </svg>
                 </div>
                 <p class="vehicle-desc">
                   With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard
@@ -1279,7 +1427,7 @@
             <div class="item vehicle active">
               <img src="./img/Vehicles/elec1.webp" class="img-fluid d-none d-md-block" alt="">
               <img src="./img/Vehicles/elec1-res.webp" class="d-block d-md-none" alt="">
-              
+
               <p class="vehicle-order">
                 <span data-vehicle-type="trucks">ELECTRIFIED</span>
                 <span data-vehicle-current="1">1</span>
@@ -1288,19 +1436,38 @@
               </p>
               <div class="vehicle-info">
                 <div class="vehicle-brand">
-                  <svg version="1.1" id="my22-cr-v-hybrid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 246 84" xml:space="preserve" role="presentation" aria-hidden="true">
+                  <svg version="1.1" id="my22-cr-v-hybrid" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 246 84" xml:space="preserve"
+                    role="presentation" aria-hidden="true">
                     <style type="text/css">
-                      #my22-cr-v-hybrid { width: 346px; height: auto; }
-                      .letters{fill:#fff;}
-                      .bar{fill:none;stroke:#fff;stroke-width:2.432;stroke-linecap:round;}
+                      #my22-cr-v-hybrid {
+                        width: 346px;
+                        height: auto;
+                      }
+
+                      .letters {
+                        fill: #fff;
+                      }
+
+                      .bar {
+                        fill: none;
+                        stroke: #fff;
+                        stroke-width: 2.432;
+                        stroke-linecap: round;
+                      }
                     </style>
                     <g>
                       <g transform="translate(0.000000, 3.932000)">
                         <g transform="translate(0.000000, 70.068000)">
-                          <path class="letters" d="M0.94,2C0.42,2,0,1.55,0,1s0.42-1,0.94-1h80.13c0.52,0,0.94,0.45,0.94,1s-0.42,1-0.94,1H0.94z"></path>
-                          <path class="letters" d="M165.98,2c-0.52,0-0.94-0.45-0.94-1s0.42-1,0.94-1h79.06c0.52,0,0.94,0.45,0.94,1s-0.42,1-0.94,1H165.98z"></path>
+                          <path class="letters"
+                            d="M0.94,2C0.42,2,0,1.55,0,1s0.42-1,0.94-1h80.13c0.52,0,0.94,0.45,0.94,1s-0.42,1-0.94,1H0.94z">
+                          </path>
+                          <path class="letters"
+                            d="M165.98,2c-0.52,0-0.94-0.45-0.94-1s0.42-1,0.94-1h79.06c0.52,0,0.94,0.45,0.94,1s-0.42,1-0.94,1H165.98z">
+                          </path>
                         </g>
-                        <path class="letters" d="M101.42,78.21c0.29,0,0.88-0.16,0.88-1.01V66.19c0-0.85-0.59-1.01-0.88-1.01
+                        <path class="letters"
+                          d="M101.42,78.21c0.29,0,0.88-0.16,0.88-1.01V66.19c0-0.85-0.59-1.01-0.88-1.01
                           c-0.31,0-0.9,0.16-0.9,1.01v4.46h-6.46v-4.46c0-0.85-0.59-1.01-0.88-1.01c-0.31,0-0.9,0.16-0.9,1.01V77.2
                           c0,0.85,0.59,1.01,0.9,1.01c0.29,0,0.88-0.16,0.88-1.01v-4.97h6.46v4.97C100.52,78.05,101.12,78.21,101.42,78.21z M109.47,78.21
                           c0.29,0,0.88-0.16,0.88-1.01v-4.64l4.25-5.92c0.18-0.25,0.23-0.49,0.23-0.65c0-0.5-0.41-0.81-0.85-0.81
@@ -1325,7 +1492,8 @@
                               c1.59,2.96,5.77,5.3,10.92,5.84c4.56,0.48,7.23,0.57,13.57,0.57L43.77,33.73z"></path>
                           </g>
                           <g transform="translate(172.840001, 0.033972)">
-                            <path class="letters" d="M57.37,0.74c0,0-20.85,21.4-23.26,23.39c-2.88,2.38-3.34,2.48-6.02,2.57l-2.96,0.01L17.11,0.74
+                            <path class="letters"
+                              d="M57.37,0.74c0,0-20.85,21.4-23.26,23.39c-2.88,2.38-3.34,2.48-6.02,2.57l-2.96,0.01L17.11,0.74
                               H0.16l9.86,33.53h16.77c9.72,0,10.47-0.06,16.86-5.75C55.43,18.01,72.86,0.46,72.86,0.46L57.37,0.74z"></path>
                           </g>
                           <path class="letters" d="M122.06,21c8.04-0.52,11.9-2.43,14.23-7.06c0.61-1.21,0.91-2.54,1.06-3.46
@@ -1334,7 +1502,8 @@
                             c-0.15,0.53-0.25,0.8-0.72,1.54c-1.17,1.82-3.18,2.74-6.34,2.89c-0.98,0.05-3.24,0.12-5.14,0.12c-0.09,0-9.96,0-15.45,0
                             c-0.56,0-0.89,0.06-1.07,0.1c0.11,0.16,0.35,0.44,0.84,0.83c2.23,1.81,19.67,15.34,20.83,16.12c0.39,0.26,0.74,0.5,1.06,0.71
                             c3.17,2.15,3.47,2.22,10.74,2.22l11.13,0l-18.94-13.64L122.06,21z"></path>
-                          <polygon class="letters" points="142.41,22.21 166.12,22.21 168.78,14.83 144.98,14.83 			"></polygon>
+                          <polygon class="letters" points="142.41,22.21 166.12,22.21 168.78,14.83 144.98,14.83 			">
+                          </polygon>
                         </g>
                         <g transform="translate(1.000000, 7.068000)">
                           <path class="bar" d="M245,0.5h-90.5 M90.5,0.5h-90"></path>
@@ -1355,7 +1524,7 @@
                           s0.14,0.94,1.17,0.94H142.18z"></path>
                       </g>
                     </g>
-                    </svg>
+                  </svg>
                 </div>
                 <p class="vehicle-desc">
                   With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard
@@ -1380,8 +1549,8 @@
 
                 </div>
               </div>
-        
-  
+
+
             </div>
             <div class="item vehicle active">
               <img src="./img/Vehicles/elec2.webp" class="img-fluid d-none d-md-block" alt="">
@@ -1395,8 +1564,10 @@
               </p>
               <div class="vehicle-info">
                 <div class="vehicle-brand">
-                  <svg id="2022-Insight-Hybrid-FLM-White" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 304 72" role="presentation" aria-hidden="true">
-                    <style type="text/css"> 
+                  <svg id="2022-Insight-Hybrid-FLM-White" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 304 72" role="presentation"
+                    aria-hidden="true">
+                    <style type="text/css">
                     </style>
                     <switch>
                       <g>
@@ -1411,10 +1582,12 @@
                                 c0,0.67-0.54,1.22-1.21,1.22L0.5,12.72L0.5,12.72z"></path>
                               </g>
                               <g style="enable-background:new    ;">
-                                <path style="fill:#FFFFFF;" d="M130.03,5.12c0-0.85,0.59-1.01,0.9-1.01c0.29,0,0.88,0.16,0.88,1.01v11.02
+                                <path style="fill:#FFFFFF;"
+                                  d="M130.03,5.12c0-0.85,0.59-1.01,0.9-1.01c0.29,0,0.88,0.16,0.88,1.01v11.02
                                 c0,0.85-0.59,1.01-0.88,1.01c-0.31,0-0.9-0.16-0.9-1.01v-4.97h-6.46v4.97c0,0.85-0.59,1.01-0.88,1.01
                                 c-0.31,0-0.9-0.16-0.9-1.01V5.12c0-0.85,0.59-1.01,0.9-1.01c0.29,0,0.88,0.16,0.88,1.01v4.47h6.46V5.12z"></path>
-                                <path style="fill:#FFFFFF;" d="M139.85,11.49v4.65c0,0.85-0.59,1.01-0.88,1.01c-0.31,0-0.9-0.16-0.9-1.01v-4.65l-4.21-5.83
+                                <path style="fill:#FFFFFF;"
+                                  d="M139.85,11.49v4.65c0,0.85-0.59,1.01-0.88,1.01c-0.31,0-0.9-0.16-0.9-1.01v-4.65l-4.21-5.83
                                 c-0.22-0.31-0.25-0.54-0.25-0.68c0-0.5,0.4-0.86,0.92-0.86c0.25,0,0.54,0.09,0.86,0.56l3.62,5.33l3.65-5.38
                                 c0.29-0.43,0.59-0.5,0.83-0.5c0.43,0,0.85,0.31,0.85,0.81c0,0.16-0.05,0.4-0.23,0.65L139.85,11.49z"></path>
                                 <path style="fill:#FFFFFF;" d="M147.2,17c-0.72,0-1.06-0.34-1.06-1.06V5.31c0-0.72,0.34-1.06,1.06-1.06h3.33
@@ -1434,7 +1607,8 @@
                             </g>
                             <g transform="translate(0.000000, 26.068000)">
                               <g transform="translate(21.221099, 0.295312)">
-                                <path style="mask:url(#mask-2_1_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M46.77,0.58
+                                <path style="mask:url(#mask-2_1_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;"
+                                  d="M46.77,0.58
                                 c-2.4,6.6-4.8,13.2-7.21,19.8c-2.92-4.46-5.85-8.91-8.77-13.37c-0.46-0.7-1.51-2.28-1.91-2.85c-1.72-2.44-2.45-3.58-7.14-3.58
                                 h-0.52h-9.18C8.27,10.91,4.5,21.25,0.74,31.59h9.2c2.59-7.11,5.18-14.23,7.77-21.34h0.24c1.09,0.01,1.25,0.16,1.77,0.89
                                 c0.32,0.45,1.27,1.87,1.48,2.21c4.03,6.08,8.06,12.16,12.09,18.24h11.41c3.76-10.34,7.52-20.67,11.29-31.01H46.77"></path>
@@ -1531,13 +1705,12 @@
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="pills-owned" role="tabpanel" aria-labelledby="pills-owned-tab"
-          tabindex="0">
+        <div class="tab-pane fade" id="pills-owned" role="tabpanel" aria-labelledby="pills-owned-tab" tabindex="0">
           <div class="owl-carousel owl-theme vehicles-carousel">
             <div class="item vehicle active">
               <img src="./img/Vehicles/owned1.webp" class="img-fluid d-none d-md-block" alt="">
               <img src="./img/Vehicles/owned1-res.webp" class="d-block d-md-none" alt="">
-              
+
               <p class="vehicle-order">
                 <span data-vehicle-type="trucks">PRE-OWNED</span>
                 <span data-vehicle-current="1">1</span>
@@ -1546,19 +1719,23 @@
               </p>
               <div class="vehicle-info">
                 <div class="vehicle-brand">
-                  <svg id="CPO-Logo" role="img" aria-label="Certified Pre-Owned" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 840 212.09" aria-hidden="true">
+                  <svg id="CPO-Logo" role="img" aria-label="Certified Pre-Owned" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 840 212.09" aria-hidden="true">
                     <title>Certified Pre-Owned</title>
                     <style>
                       #CPO-Logo .cls-1,
                       #CPO-Logo .cls-4 {
                         fill: none;
                       }
+
                       #CPO-Logo .cls-2 {
                         clip-path: url("#clip-path");
                       }
+
                       #CPO-Logo .cls-3 {
                         fill: #ffffff;
                       }
+
                       #CPO-Logo .cls-4 {
                         stroke: #ffffff;
                         stroke-linecap: round;
@@ -1570,31 +1747,79 @@
                       <rect class="cls-1" x="20.25" y="20.78" width="800" height="172.09"></rect>
                     </clipPath>
                     <g class="cls-2">
-                      <path class="cls-3" d="M336.42,73c0-26.89,19.67-43.84,45.5-43.84,9.6,0,19,3,24.53,7.7,2.85,2.49,3.32,4.51,3.32,6.16a6.83,6.83,0,0,1-7,6.88c-1.55,0-3.08-.48-5.69-2.37a24,24,0,0,0-15.17-5.22c-17.3,0-29,13.39-29,30.69,0,18.25,11.14,30.93,28.44,30.93a25.07,25.07,0,0,0,17.53-6.52c2.49-2.13,4-2.48,5.58-2.48a6.3,6.3,0,0,1,6.63,6.51,9.16,9.16,0,0,1-3.08,6.4c-5.33,5.21-14.81,9.48-26.78,9.48-26.19,0-44.79-18.13-44.79-44.32"></path>
-                      <path class="cls-3" d="M434,91.24c.6,8.06,7.94,14,16.24,14a18.48,18.48,0,0,0,13-4.86c2-1.65,3.32-2,4.85-2a5.48,5.48,0,0,1,5.7,5.69,7.23,7.23,0,0,1-2.38,5.09c-5.56,5.34-12,7.71-21.09,7.71-17.53,0-30.57-11.26-30.57-29.75s12.92-30.45,30.1-30.45c13.75,0,24.88,7.82,27.13,24.53a29.24,29.24,0,0,1,.24,3c0,5-2.72,7.11-7.47,7.11Zm29.15-10.19c0-7.35-4.15-13.74-13.39-13.74-8.41,0-15.16,5.8-15.76,13.74Z"></path>
-                      <path class="cls-3" d="M495.88,116.24c-2.37,0-7.11-1.18-7.11-7.94V64.82c0-6.4,4.62-7.59,6.75-7.59s6.88,1.19,6.88,7.59v3h.24c2.24-6.16,7.93-11.14,14.81-11.14,4.26,0,7.34,2.14,7.34,6.28,0,3.67-2.25,6.87-7.7,6.87-9,0-14.1,6.76-14.1,16.24V108.3c0,6.76-4.74,7.94-7.11,7.94"></path>
-                      <path class="cls-3" d="M560.09,116.36c-15,0-18.36-9.24-18.36-20.14V69.67H537.1c-5.44,0-6.39-3.79-6.39-5.68s.95-5.69,6.39-5.69h4.63V48.47c0-6.52,4.62-7.71,7-7.71s7,1.19,7,7.71V58.3h8.89c5.45,0,6.4,3.79,6.4,5.69s-1,5.68-6.4,5.68h-8.89V96.1c0,5.57,1.9,8.53,5.45,8.53a18.07,18.07,0,0,0,2.25-.24,10.35,10.35,0,0,1,1.66-.12,5.19,5.19,0,0,1,5.45,5.34,5.78,5.78,0,0,1-3.44,5.21,16,16,0,0,1-7,1.54"></path>
-                      <path class="cls-3" d="M589.82,47.52a8.76,8.76,0,0,1-9-8.53,8.75,8.75,0,0,1,9-8.53c5.22,0,9.25,3.67,9.25,8.53s-4,8.53-9.25,8.53m.12,68.72c-2.36,0-7.11-1.18-7.11-7.94V65.17c0-6.75,4.75-7.94,7.11-7.94s7.11,1.19,7.11,7.94V108.3c0,6.76-4.74,7.94-7.11,7.94"></path>
-                      <path class="cls-3" d="M613.52,69.68c-5.45,0-6.4-3.79-6.4-5.69s1-5.69,6.4-5.69H619V49.89c0-13.63,5.33-25.72,21.8-25.72,5.92,0,9,2,9,6.28,0,3.21-2.13,5.81-6.63,5.81-7.7,0-10,4.86-10,12.8V58.3H641c5.45,0,6.39,3.79,6.39,5.69s-.94,5.69-6.39,5.69h-7.83V108.3c0,6.76-4.73,7.94-7.1,7.94S619,115.06,619,108.3V69.68Z"></path>
-                      <path class="cls-3" d="M667.54,47.52a8.77,8.77,0,0,1-9-8.53,8.76,8.76,0,0,1,9-8.53c5.21,0,9.24,3.67,9.24,8.53s-4,8.53-9.24,8.53m.12,68.72c-2.37,0-7.11-1.18-7.11-7.94V65.17c0-6.75,4.74-7.94,7.11-7.94s7.1,1.19,7.1,7.94V108.3c0,6.76-4.73,7.94-7.1,7.94"></path>
-                      <path class="cls-3" d="M703,91.24c.59,8.06,7.94,14,16.23,14a18.49,18.49,0,0,0,13-4.86c2-1.65,3.31-2,4.86-2a5.47,5.47,0,0,1,5.68,5.69,7.21,7.21,0,0,1-2.37,5.09c-5.57,5.34-12,7.71-21.09,7.71-17.53,0-30.57-11.26-30.57-29.75s12.91-30.45,30.1-30.45c13.74,0,24.88,7.82,27.13,24.53a29.24,29.24,0,0,1,.24,3c0,5-2.73,7.11-7.47,7.11Zm29.15-10.19c0-7.35-4.15-13.74-13.39-13.74-8.41,0-15.17,5.8-15.76,13.74Z"></path>
-                      <path class="cls-3" d="M813.5,116.24c-2.14,0-6.76-1.06-6.76-7.47v-2.13h-.23c-3.91,6.52-11.62,10.19-19.55,10.19-17.31,0-28-13.74-28-30.33,0-16.82,11.37-29.86,27.61-29.86,10.43,0,16.11,5.22,19.07,8.89H806V32.47c0-6.76,4.74-7.94,7.11-7.94s7.11,1.18,7.11,7.94v76.3c0,6.41-4.62,7.47-6.75,7.47M789.8,105c10.43,0,16.71-9.36,16.71-18.25s-6.28-18.48-16.71-18.48c-11,0-16.35,9.36-16.35,18.24S778.78,105,789.8,105"></path>
-                      <path class="cls-3" d="M357.45,138.69c9.75,0,16.18,4.19,16.18,12.8s-6.57,12.86-16.32,12.86h-8.53v20a2.45,2.45,0,1,1-4.87,0V141.6c0-2,.95-2.91,2.91-2.91Zm-8.67,21.53H357c7.59,0,11.71-3.05,11.71-8.73,0-5.89-4.33-8.61-11.71-8.61h-8.26Z"></path>
-                      <path class="cls-3" d="M401.65,187.09a2.21,2.21,0,0,1-2.3-2.5V161.91c0-1.22-.07-4-.14-5.08a2.09,2.09,0,0,1,2.17-2.37c.74,0,2.17.27,2.24,2.37l.12,3.52h.15A11.27,11.27,0,0,1,414,154.12a5.55,5.55,0,0,1,2,.27,1.91,1.91,0,0,1,1.29,1.83c0,1.49-1,2.24-2.51,2.24-.67,0-1.08-.07-1.55-.07-4.88,0-9.28,3.52-9.28,12v14.22a2.21,2.21,0,0,1-2.3,2.5"></path>
-                      <path class="cls-3" d="M441.46,172A11.55,11.55,0,0,0,453,183.51a11.93,11.93,0,0,0,9.14-4.13,2.32,2.32,0,0,1,1.76-.88,2,2,0,0,1,2.1,2,2.34,2.34,0,0,1-.67,1.62A16.07,16.07,0,0,1,453,187.43c-9.41,0-16.38-7.1-16.38-16.65s7-16.66,16-16.66,15.16,6.16,15.16,15.51c0,1.56-.81,2.37-2.5,2.37Zm21.66-3.66c-.27-6-3.93-10.35-10.49-10.35a11.22,11.22,0,0,0-11.11,10.35Z"></path>
+                      <path class="cls-3"
+                        d="M336.42,73c0-26.89,19.67-43.84,45.5-43.84,9.6,0,19,3,24.53,7.7,2.85,2.49,3.32,4.51,3.32,6.16a6.83,6.83,0,0,1-7,6.88c-1.55,0-3.08-.48-5.69-2.37a24,24,0,0,0-15.17-5.22c-17.3,0-29,13.39-29,30.69,0,18.25,11.14,30.93,28.44,30.93a25.07,25.07,0,0,0,17.53-6.52c2.49-2.13,4-2.48,5.58-2.48a6.3,6.3,0,0,1,6.63,6.51,9.16,9.16,0,0,1-3.08,6.4c-5.33,5.21-14.81,9.48-26.78,9.48-26.19,0-44.79-18.13-44.79-44.32">
+                      </path>
+                      <path class="cls-3"
+                        d="M434,91.24c.6,8.06,7.94,14,16.24,14a18.48,18.48,0,0,0,13-4.86c2-1.65,3.32-2,4.85-2a5.48,5.48,0,0,1,5.7,5.69,7.23,7.23,0,0,1-2.38,5.09c-5.56,5.34-12,7.71-21.09,7.71-17.53,0-30.57-11.26-30.57-29.75s12.92-30.45,30.1-30.45c13.75,0,24.88,7.82,27.13,24.53a29.24,29.24,0,0,1,.24,3c0,5-2.72,7.11-7.47,7.11Zm29.15-10.19c0-7.35-4.15-13.74-13.39-13.74-8.41,0-15.16,5.8-15.76,13.74Z">
+                      </path>
+                      <path class="cls-3"
+                        d="M495.88,116.24c-2.37,0-7.11-1.18-7.11-7.94V64.82c0-6.4,4.62-7.59,6.75-7.59s6.88,1.19,6.88,7.59v3h.24c2.24-6.16,7.93-11.14,14.81-11.14,4.26,0,7.34,2.14,7.34,6.28,0,3.67-2.25,6.87-7.7,6.87-9,0-14.1,6.76-14.1,16.24V108.3c0,6.76-4.74,7.94-7.11,7.94">
+                      </path>
+                      <path class="cls-3"
+                        d="M560.09,116.36c-15,0-18.36-9.24-18.36-20.14V69.67H537.1c-5.44,0-6.39-3.79-6.39-5.68s.95-5.69,6.39-5.69h4.63V48.47c0-6.52,4.62-7.71,7-7.71s7,1.19,7,7.71V58.3h8.89c5.45,0,6.4,3.79,6.4,5.69s-1,5.68-6.4,5.68h-8.89V96.1c0,5.57,1.9,8.53,5.45,8.53a18.07,18.07,0,0,0,2.25-.24,10.35,10.35,0,0,1,1.66-.12,5.19,5.19,0,0,1,5.45,5.34,5.78,5.78,0,0,1-3.44,5.21,16,16,0,0,1-7,1.54">
+                      </path>
+                      <path class="cls-3"
+                        d="M589.82,47.52a8.76,8.76,0,0,1-9-8.53,8.75,8.75,0,0,1,9-8.53c5.22,0,9.25,3.67,9.25,8.53s-4,8.53-9.25,8.53m.12,68.72c-2.36,0-7.11-1.18-7.11-7.94V65.17c0-6.75,4.75-7.94,7.11-7.94s7.11,1.19,7.11,7.94V108.3c0,6.76-4.74,7.94-7.11,7.94">
+                      </path>
+                      <path class="cls-3"
+                        d="M613.52,69.68c-5.45,0-6.4-3.79-6.4-5.69s1-5.69,6.4-5.69H619V49.89c0-13.63,5.33-25.72,21.8-25.72,5.92,0,9,2,9,6.28,0,3.21-2.13,5.81-6.63,5.81-7.7,0-10,4.86-10,12.8V58.3H641c5.45,0,6.39,3.79,6.39,5.69s-.94,5.69-6.39,5.69h-7.83V108.3c0,6.76-4.73,7.94-7.1,7.94S619,115.06,619,108.3V69.68Z">
+                      </path>
+                      <path class="cls-3"
+                        d="M667.54,47.52a8.77,8.77,0,0,1-9-8.53,8.76,8.76,0,0,1,9-8.53c5.21,0,9.24,3.67,9.24,8.53s-4,8.53-9.24,8.53m.12,68.72c-2.37,0-7.11-1.18-7.11-7.94V65.17c0-6.75,4.74-7.94,7.11-7.94s7.1,1.19,7.1,7.94V108.3c0,6.76-4.73,7.94-7.1,7.94">
+                      </path>
+                      <path class="cls-3"
+                        d="M703,91.24c.59,8.06,7.94,14,16.23,14a18.49,18.49,0,0,0,13-4.86c2-1.65,3.31-2,4.86-2a5.47,5.47,0,0,1,5.68,5.69,7.21,7.21,0,0,1-2.37,5.09c-5.57,5.34-12,7.71-21.09,7.71-17.53,0-30.57-11.26-30.57-29.75s12.91-30.45,30.1-30.45c13.74,0,24.88,7.82,27.13,24.53a29.24,29.24,0,0,1,.24,3c0,5-2.73,7.11-7.47,7.11Zm29.15-10.19c0-7.35-4.15-13.74-13.39-13.74-8.41,0-15.17,5.8-15.76,13.74Z">
+                      </path>
+                      <path class="cls-3"
+                        d="M813.5,116.24c-2.14,0-6.76-1.06-6.76-7.47v-2.13h-.23c-3.91,6.52-11.62,10.19-19.55,10.19-17.31,0-28-13.74-28-30.33,0-16.82,11.37-29.86,27.61-29.86,10.43,0,16.11,5.22,19.07,8.89H806V32.47c0-6.76,4.74-7.94,7.11-7.94s7.11,1.18,7.11,7.94v76.3c0,6.41-4.62,7.47-6.75,7.47M789.8,105c10.43,0,16.71-9.36,16.71-18.25s-6.28-18.48-16.71-18.48c-11,0-16.35,9.36-16.35,18.24S778.78,105,789.8,105">
+                      </path>
+                      <path class="cls-3"
+                        d="M357.45,138.69c9.75,0,16.18,4.19,16.18,12.8s-6.57,12.86-16.32,12.86h-8.53v20a2.45,2.45,0,1,1-4.87,0V141.6c0-2,.95-2.91,2.91-2.91Zm-8.67,21.53H357c7.59,0,11.71-3.05,11.71-8.73,0-5.89-4.33-8.61-11.71-8.61h-8.26Z">
+                      </path>
+                      <path class="cls-3"
+                        d="M401.65,187.09a2.21,2.21,0,0,1-2.3-2.5V161.91c0-1.22-.07-4-.14-5.08a2.09,2.09,0,0,1,2.17-2.37c.74,0,2.17.27,2.24,2.37l.12,3.52h.15A11.27,11.27,0,0,1,414,154.12a5.55,5.55,0,0,1,2,.27,1.91,1.91,0,0,1,1.29,1.83c0,1.49-1,2.24-2.51,2.24-.67,0-1.08-.07-1.55-.07-4.88,0-9.28,3.52-9.28,12v14.22a2.21,2.21,0,0,1-2.3,2.5">
+                      </path>
+                      <path class="cls-3"
+                        d="M441.46,172A11.55,11.55,0,0,0,453,183.51a11.93,11.93,0,0,0,9.14-4.13,2.32,2.32,0,0,1,1.76-.88,2,2,0,0,1,2.1,2,2.34,2.34,0,0,1-.67,1.62A16.07,16.07,0,0,1,453,187.43c-9.41,0-16.38-7.1-16.38-16.65s7-16.66,16-16.66,15.16,6.16,15.16,15.51c0,1.56-.81,2.37-2.5,2.37Zm21.66-3.66c-.27-6-3.93-10.35-10.49-10.35a11.22,11.22,0,0,0-11.11,10.35Z">
+                      </path>
                       <path class="cls-3" d="M493,172.13a1.94,1.94,0,1,1,0-3.85h11.78a1.94,1.94,0,1,1,0,3.85Z"></path>
-                      <path class="cls-3" d="M554.92,187.84c-14.29,0-25-10.63-25-25.18s10.7-25.19,25-25.19,25,10.63,25,25.19-10.7,25.18-25,25.18m0-46.11c-12.33,0-19.84,9.75-19.84,20.93s7.51,20.85,19.84,20.85,19.83-9.69,19.83-20.85-7.51-20.93-19.83-20.93"></path>
-                      <path class="cls-3" d="M637.77,187.09c-.94,0-2.44-.33-3.18-2.63L626.74,161h-.14l-7.71,23.5c-.75,2.3-2.24,2.63-3.19,2.63s-2.43-.33-3.18-2.63l-8.73-26.68a4.06,4.06,0,0,1-.21-1.08,2.22,2.22,0,0,1,2.44-2.24,2.29,2.29,0,0,1,2.24,1.9l7.51,24.3h.14l8-23.9a2.91,2.91,0,0,1,5.69,0l8.12,23.9h.14l7.45-24.3a2.24,2.24,0,0,1,2.23-1.9,2.19,2.19,0,0,1,2.37,2.17,4.38,4.38,0,0,1-.2,1.15L641,184.46c-.75,2.3-2.24,2.63-3.19,2.63"></path>
-                      <path class="cls-3" d="M678.93,160.35h.14c1.76-3.65,6.36-6.23,10.83-6.23,8.05,0,12.05,5.22,12.05,13.07v17.4a2.31,2.31,0,1,1-4.6,0V169.08c0-6.63-2-11.1-8.6-11.1-4.88,0-9.61,3.93-9.61,12.39v14.22a2.31,2.31,0,1,1-4.61,0V161.91c0-1.22-.07-4-.13-5.08a2.09,2.09,0,0,1,2.16-2.37c.75,0,2.17.28,2.24,2.37Z"></path>
-                      <path class="cls-3" d="M732.82,172a11.55,11.55,0,0,0,11.57,11.51,11.91,11.91,0,0,0,9.14-4.13,2.32,2.32,0,0,1,1.76-.88,2,2,0,0,1,2.1,2,2.31,2.31,0,0,1-.68,1.62,16,16,0,0,1-12.32,5.28c-9.41,0-16.38-7.1-16.38-16.65s7-16.66,16-16.66,15.16,6.16,15.16,15.51c0,1.56-.81,2.37-2.5,2.37Zm21.66-3.66c-.27-6-3.93-10.35-10.49-10.35a11.22,11.22,0,0,0-11.11,10.35Z"></path>
-                      <path class="cls-3" d="M814,187.1a2.23,2.23,0,0,1-2.31-2.51v-3.32h-.13a14.61,14.61,0,0,1-12,6.16c-9.88,0-16.38-7.31-16.38-16.65s6.5-16.66,16.38-16.66a14.41,14.41,0,0,1,12,6.3h.13V137.47a2.31,2.31,0,1,1,4.61,0v47.12a2.22,2.22,0,0,1-2.3,2.51m-14-3.59c7.11,0,12.18-5.49,12.18-12.73S807.15,158,800,158c-7.65,0-12,5.75-12,12.79s4.33,12.73,12,12.73"></path>
-                      <path class="cls-3" d="M48.61,159.53l3.73.44c1.68.19,1.85,1.59,1.85,2.48v4.43H37v-4.43c0-.89.18-2.29,1.85-2.48l3.73-.44v-3.78H20.25v3.78L24,160c1.67.19,1.85,1.59,1.85,2.48V177c0,.91-.18,2.31-1.85,2.5l-3.73.45v3.79H42.58v-3.79l-3.73-.45c-1.67-.19-1.85-1.59-1.85-2.5v-4.43H54.19V177c0,.91-.17,2.31-1.85,2.5l-3.73.45v3.79H71v-3.79l-3.73-.45c-1.68-.19-1.86-1.59-1.86-2.5V162.45c0-.89.18-2.29,1.86-2.48l3.73-.44v-3.78H48.61Z"></path>
-                      <path class="cls-3" d="M197.6,155.75H170v3.78l3.3.35c1.18.14,1.94.64,1.94,2.28V177c0,.91-.17,2.32-1.85,2.5l-3.73.45v3.79H197.6c10,0,18.21-4.05,18.21-14s-8.22-14-18.21-14m-2,22.6H186.2V161.09h9.37c5.52,0,7.39,2.62,7.39,8.63s-1.87,8.63-7.39,8.63"></path>
-                      <path class="cls-3" d="M262.77,179.52a3.69,3.69,0,0,1-2.87-2.19L247,157.6c-.93-1.41-1.6-1.85-3-1.85H222.9v3.78l5,.58a1.46,1.46,0,0,1,.89,2.34L219.33,178a2.59,2.59,0,0,1-2,1.51l-3.79.44v3.79h17.86v-3.8l-3.08-.31c-1.31-.14-2-1.06-1.36-2.14l1.43-2.34h17.14l1.26,1.94c1.11,1.7-.29,2.4-1.5,2.52l-3.16.33v3.8h24.15v-3.79Zm-31.31-9.33,5.28-8.62,5.61,8.62Z"></path>
-                      <path class="cls-3" d="M150.06,159.53l3.73.44c1.68.19,1.86,1.59,1.86,2.48v14L140.9,156.93c-.66-.89-1.24-1.18-2.82-1.18H118.91v3.78l3.73.44c1.68.19,1.86,1.59,1.86,2.48V177c0,.91-.18,2.31-1.86,2.5l-3.73.45v3.79h17.85v-3.79l-3.73-.45c-1.68-.19-1.85-1.59-1.85-2.5V163l14.74,19.55c.67.9,1.24,1.19,2.83,1.19h13.58V162.45c0-.89.18-2.29,1.86-2.48l3.73-.44v-3.78H150.06Z"></path>
-                      <path class="cls-3" d="M94.89,154.79c-18.15,0-22.84,7.94-22.84,14.93s4.69,15,22.84,15,22.82-8,22.82-15S113,154.79,94.89,154.79m0,24.55c-7,0-10-3-10-9.62s2.93-9.61,10-9.61,10,2.95,10,9.61-2.93,9.62-10,9.62"></path>
-                      <path class="cls-3" d="M174.22,38.07c-3.08,13.71-4.29,20-6.79,29.93-2.4,9.53-4.25,18.37-7.47,22.66a14.42,14.42,0,0,1-10.56,5.62,47.42,47.42,0,0,1-6,.26,47.62,47.62,0,0,1-6-.26,14.46,14.46,0,0,1-10.57-5.62c-3.21-4.29-5.06-13.13-7.46-22.66-2.5-9.92-3.71-16.22-6.78-29.93,0,0-3.07.12-4.43.22-1.84.13-3.27.28-4.84.49,0,0,1.77,28.2,2.57,40.14.83,12.57,2.31,33.73,3.7,49.72,0,0,2.57.41,6.85.66,4.5.25,6.5.28,6.5.28,1.85-7,4.14-16.81,6.73-21,2.11-3.39,5.37-3.75,7.21-4a42.75,42.75,0,0,1,6.48-.42h0a42.71,42.71,0,0,1,6.47.42c1.84.25,5.09.61,7.21,4,2.6,4.17,4.89,13.94,6.74,21,0,0,2,0,6.49-.28,4.28-.25,6.85-.66,6.85-.66,1.38-16,2.86-37.15,3.7-49.72.8-11.94,2.57-40.14,2.57-40.14-1.57-.21-3-.36-4.84-.49-1.36-.1-4.42-.22-4.42-.22"></path>
-                      <path class="cls-3" d="M209.74,54.71C207.92,36.81,196,33,185.48,31.27a204.67,204.67,0,0,0-20.7-1.89c-5.26-.33-17.66-.49-21.34-.5s-16.1.17-21.36.5a204.67,204.67,0,0,0-20.7,1.89C90.9,33,79,36.81,77.13,54.71a167.57,167.57,0,0,0-.54,18.1,235.56,235.56,0,0,0,1.67,24.32c.39,3.64,1.91,14.58,3.86,20.24,2.68,7.79,5.1,10,7.94,12.36,5.19,4.24,13.74,5.54,15.56,5.86,9.66,1.74,29.19,2,37.82,2s28.16-.31,37.81-2c1.83-.32,10.37-1.62,15.56-5.86,2.84-2.31,5.25-4.57,7.94-12.36,1.95-5.66,3.47-16.6,3.85-20.24a229.26,229.26,0,0,0,1.68-24.32,167.57,167.57,0,0,0-.54-18.1M203.17,84.8c-1,14.3-2.33,22.88-4.15,29.06-1.6,5.41-3.58,9.06-6.46,11.67-4.83,4.37-11.47,5.3-15.37,5.89-8.43,1.24-22.61,1.68-33.75,1.68s-25.33-.44-33.76-1.68c-3.89-.59-10.54-1.52-15.37-5.89-2.88-2.61-4.87-6.26-6.46-11.67C86,107.68,84.76,99.1,83.7,84.8c-.64-8.62-.51-22.6.45-30.11,1.43-11.19,7-16.82,18.89-18.95a172.39,172.39,0,0,1,20.13-2c5.68-.39,15-.57,20.27-.53s14.57.14,20.26.53a172,172,0,0,1,20.12,2c11.91,2.13,17.47,7.76,18.9,18.95,1,7.51,1.09,21.49.45,30.11"></path>
+                      <path class="cls-3"
+                        d="M554.92,187.84c-14.29,0-25-10.63-25-25.18s10.7-25.19,25-25.19,25,10.63,25,25.19-10.7,25.18-25,25.18m0-46.11c-12.33,0-19.84,9.75-19.84,20.93s7.51,20.85,19.84,20.85,19.83-9.69,19.83-20.85-7.51-20.93-19.83-20.93">
+                      </path>
+                      <path class="cls-3"
+                        d="M637.77,187.09c-.94,0-2.44-.33-3.18-2.63L626.74,161h-.14l-7.71,23.5c-.75,2.3-2.24,2.63-3.19,2.63s-2.43-.33-3.18-2.63l-8.73-26.68a4.06,4.06,0,0,1-.21-1.08,2.22,2.22,0,0,1,2.44-2.24,2.29,2.29,0,0,1,2.24,1.9l7.51,24.3h.14l8-23.9a2.91,2.91,0,0,1,5.69,0l8.12,23.9h.14l7.45-24.3a2.24,2.24,0,0,1,2.23-1.9,2.19,2.19,0,0,1,2.37,2.17,4.38,4.38,0,0,1-.2,1.15L641,184.46c-.75,2.3-2.24,2.63-3.19,2.63">
+                      </path>
+                      <path class="cls-3"
+                        d="M678.93,160.35h.14c1.76-3.65,6.36-6.23,10.83-6.23,8.05,0,12.05,5.22,12.05,13.07v17.4a2.31,2.31,0,1,1-4.6,0V169.08c0-6.63-2-11.1-8.6-11.1-4.88,0-9.61,3.93-9.61,12.39v14.22a2.31,2.31,0,1,1-4.61,0V161.91c0-1.22-.07-4-.13-5.08a2.09,2.09,0,0,1,2.16-2.37c.75,0,2.17.28,2.24,2.37Z">
+                      </path>
+                      <path class="cls-3"
+                        d="M732.82,172a11.55,11.55,0,0,0,11.57,11.51,11.91,11.91,0,0,0,9.14-4.13,2.32,2.32,0,0,1,1.76-.88,2,2,0,0,1,2.1,2,2.31,2.31,0,0,1-.68,1.62,16,16,0,0,1-12.32,5.28c-9.41,0-16.38-7.1-16.38-16.65s7-16.66,16-16.66,15.16,6.16,15.16,15.51c0,1.56-.81,2.37-2.5,2.37Zm21.66-3.66c-.27-6-3.93-10.35-10.49-10.35a11.22,11.22,0,0,0-11.11,10.35Z">
+                      </path>
+                      <path class="cls-3"
+                        d="M814,187.1a2.23,2.23,0,0,1-2.31-2.51v-3.32h-.13a14.61,14.61,0,0,1-12,6.16c-9.88,0-16.38-7.31-16.38-16.65s6.5-16.66,16.38-16.66a14.41,14.41,0,0,1,12,6.3h.13V137.47a2.31,2.31,0,1,1,4.61,0v47.12a2.22,2.22,0,0,1-2.3,2.51m-14-3.59c7.11,0,12.18-5.49,12.18-12.73S807.15,158,800,158c-7.65,0-12,5.75-12,12.79s4.33,12.73,12,12.73">
+                      </path>
+                      <path class="cls-3"
+                        d="M48.61,159.53l3.73.44c1.68.19,1.85,1.59,1.85,2.48v4.43H37v-4.43c0-.89.18-2.29,1.85-2.48l3.73-.44v-3.78H20.25v3.78L24,160c1.67.19,1.85,1.59,1.85,2.48V177c0,.91-.18,2.31-1.85,2.5l-3.73.45v3.79H42.58v-3.79l-3.73-.45c-1.67-.19-1.85-1.59-1.85-2.5v-4.43H54.19V177c0,.91-.17,2.31-1.85,2.5l-3.73.45v3.79H71v-3.79l-3.73-.45c-1.68-.19-1.86-1.59-1.86-2.5V162.45c0-.89.18-2.29,1.86-2.48l3.73-.44v-3.78H48.61Z">
+                      </path>
+                      <path class="cls-3"
+                        d="M197.6,155.75H170v3.78l3.3.35c1.18.14,1.94.64,1.94,2.28V177c0,.91-.17,2.32-1.85,2.5l-3.73.45v3.79H197.6c10,0,18.21-4.05,18.21-14s-8.22-14-18.21-14m-2,22.6H186.2V161.09h9.37c5.52,0,7.39,2.62,7.39,8.63s-1.87,8.63-7.39,8.63">
+                      </path>
+                      <path class="cls-3"
+                        d="M262.77,179.52a3.69,3.69,0,0,1-2.87-2.19L247,157.6c-.93-1.41-1.6-1.85-3-1.85H222.9v3.78l5,.58a1.46,1.46,0,0,1,.89,2.34L219.33,178a2.59,2.59,0,0,1-2,1.51l-3.79.44v3.79h17.86v-3.8l-3.08-.31c-1.31-.14-2-1.06-1.36-2.14l1.43-2.34h17.14l1.26,1.94c1.11,1.7-.29,2.4-1.5,2.52l-3.16.33v3.8h24.15v-3.79Zm-31.31-9.33,5.28-8.62,5.61,8.62Z">
+                      </path>
+                      <path class="cls-3"
+                        d="M150.06,159.53l3.73.44c1.68.19,1.86,1.59,1.86,2.48v14L140.9,156.93c-.66-.89-1.24-1.18-2.82-1.18H118.91v3.78l3.73.44c1.68.19,1.86,1.59,1.86,2.48V177c0,.91-.18,2.31-1.86,2.5l-3.73.45v3.79h17.85v-3.79l-3.73-.45c-1.68-.19-1.85-1.59-1.85-2.5V163l14.74,19.55c.67.9,1.24,1.19,2.83,1.19h13.58V162.45c0-.89.18-2.29,1.86-2.48l3.73-.44v-3.78H150.06Z">
+                      </path>
+                      <path class="cls-3"
+                        d="M94.89,154.79c-18.15,0-22.84,7.94-22.84,14.93s4.69,15,22.84,15,22.82-8,22.82-15S113,154.79,94.89,154.79m0,24.55c-7,0-10-3-10-9.62s2.93-9.61,10-9.61,10,2.95,10,9.61-2.93,9.62-10,9.62">
+                      </path>
+                      <path class="cls-3"
+                        d="M174.22,38.07c-3.08,13.71-4.29,20-6.79,29.93-2.4,9.53-4.25,18.37-7.47,22.66a14.42,14.42,0,0,1-10.56,5.62,47.42,47.42,0,0,1-6,.26,47.62,47.62,0,0,1-6-.26,14.46,14.46,0,0,1-10.57-5.62c-3.21-4.29-5.06-13.13-7.46-22.66-2.5-9.92-3.71-16.22-6.78-29.93,0,0-3.07.12-4.43.22-1.84.13-3.27.28-4.84.49,0,0,1.77,28.2,2.57,40.14.83,12.57,2.31,33.73,3.7,49.72,0,0,2.57.41,6.85.66,4.5.25,6.5.28,6.5.28,1.85-7,4.14-16.81,6.73-21,2.11-3.39,5.37-3.75,7.21-4a42.75,42.75,0,0,1,6.48-.42h0a42.71,42.71,0,0,1,6.47.42c1.84.25,5.09.61,7.21,4,2.6,4.17,4.89,13.94,6.74,21,0,0,2,0,6.49-.28,4.28-.25,6.85-.66,6.85-.66,1.38-16,2.86-37.15,3.7-49.72.8-11.94,2.57-40.14,2.57-40.14-1.57-.21-3-.36-4.84-.49-1.36-.1-4.42-.22-4.42-.22">
+                      </path>
+                      <path class="cls-3"
+                        d="M209.74,54.71C207.92,36.81,196,33,185.48,31.27a204.67,204.67,0,0,0-20.7-1.89c-5.26-.33-17.66-.49-21.34-.5s-16.1.17-21.36.5a204.67,204.67,0,0,0-20.7,1.89C90.9,33,79,36.81,77.13,54.71a167.57,167.57,0,0,0-.54,18.1,235.56,235.56,0,0,0,1.67,24.32c.39,3.64,1.91,14.58,3.86,20.24,2.68,7.79,5.1,10,7.94,12.36,5.19,4.24,13.74,5.54,15.56,5.86,9.66,1.74,29.19,2,37.82,2s28.16-.31,37.81-2c1.83-.32,10.37-1.62,15.56-5.86,2.84-2.31,5.25-4.57,7.94-12.36,1.95-5.66,3.47-16.6,3.85-20.24a229.26,229.26,0,0,0,1.68-24.32,167.57,167.57,0,0,0-.54-18.1M203.17,84.8c-1,14.3-2.33,22.88-4.15,29.06-1.6,5.41-3.58,9.06-6.46,11.67-4.83,4.37-11.47,5.3-15.37,5.89-8.43,1.24-22.61,1.68-33.75,1.68s-25.33-.44-33.76-1.68c-3.89-.59-10.54-1.52-15.37-5.89-2.88-2.61-4.87-6.26-6.46-11.67C86,107.68,84.76,99.1,83.7,84.8c-.64-8.62-.51-22.6.45-30.11,1.43-11.19,7-16.82,18.89-18.95a172.39,172.39,0,0,1,20.13-2c5.68-.39,15-.57,20.27-.53s14.57.14,20.26.53a172,172,0,0,1,20.12,2c11.91,2.13,17.47,7.76,18.9,18.95,1,7.51,1.09,21.49.45,30.11">
+                      </path>
                       <line class="cls-4" x1="303.11" y1="25.01" x2="303.11" y2="188.64"></line>
                     </g>
                   </svg>
@@ -1604,15 +1829,15 @@
                   on
                   all trims, the Accord is everything a sedan should be and more.
                 </p>
-          
+
                 <div class="vehicle-more">
                   <button class="btn-main btn-CTA--bluewhite">Learn more</button>
                   <!-- <button class="btn-main btn-CTA--white">Build</button> -->
 
                 </div>
               </div>
-        
-  
+
+
             </div>
           </div>
         </div>
@@ -1817,7 +2042,7 @@
                 <i class="fa fa-search"></i>
               </div>
               <p class="tool-function">
-                Search 
+                Search
               </p>
               <button class="btn-main btn-CTA--blue tool-btn">
                 GO
@@ -1882,24 +2107,30 @@
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card discover-card">
-              <img src="./img/discover/Homepage-JD-Power-Discover-Tout-P3.jpeg" class="img-fluid card-img-top" alt="...">
+              <img src="./img/discover/Homepage-JD-Power-Discover-Tout-P3.jpeg" class="img-fluid card-img-top"
+                alt="...">
               <div class="card-body">
                 <h5 class="card-title">Honda Wins J.D. Power ALG Residual Value Award</h5>
-                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an award recognizing vehicles predicted to lead their segment in retained value after three years of ownership.
+                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an
+                  award recognizing vehicles predicted to lead their segment in retained value after three years of
+                  ownership.
 
-</p>
+                </p>
                 <button class="btn-main btn-CTA--bluewhite">Learn More</button>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card discover-card">
-              <img src="./img/discover/Civic-Sedan-Homepage-Discover-Tout-P2-2X.webp" class="img-fluid card-img-top" alt="...">
+              <img src="./img/discover/Civic-Sedan-Homepage-Discover-Tout-P2-2X.webp" class="img-fluid card-img-top"
+                alt="...">
               <div class="card-body">
                 <h5 class="card-title">The Civic Is the 2022 North American Car of the Year™
                 </h5>
-                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an award recognizing vehicles predicted to lead their segment in retained value after three years of ownership.
-                  </p>
+                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an
+                  award recognizing vehicles predicted to lead their segment in retained value after three years of
+                  ownership.
+                </p>
 
                 <button class="btn-main btn-CTA--bluewhite">Learn More</button>
               </div>
@@ -1907,22 +2138,28 @@
           </div>
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card discover-card">
-              <img src="./img/discover/Project-Courage-Homepage-Discover-Tout.webp" class="img-fluid card-img-top" alt="...">
+              <img src="./img/discover/Project-Courage-Homepage-Discover-Tout.webp" class="img-fluid card-img-top"
+                alt="...">
               <div class="card-body">
                 <h5 class="card-title">A Little Car Does a Lot of Good</h5>
-                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an award recognizing vehicles predicted to lead their segment in retained value after three years of ownership.
+                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an
+                  award recognizing vehicles predicted to lead their segment in retained value after three years of
+                  ownership.
 
-                  </p>
+                </p>
                 <button class="btn-main btn-CTA--bluewhite">Learn More</button>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card discover-card">
-              <img src="./img/discover/Discover_ToutA_ARC-1002_Desktop-2x.jpeg" class="img-fluid card-img-top" alt="...">
+              <img src="./img/discover/Discover_ToutA_ARC-1002_Desktop-2x.jpeg" class="img-fluid card-img-top"
+                alt="...">
               <div class="card-body">
                 <h5 class="card-title">Honda is Kelley Blue Book’s KBB.com 2022 Best Value Brand</h5>
-                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an award recognizing vehicles predicted to lead their segment in retained value after three years of ownership.
+                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an
+                  award recognizing vehicles predicted to lead their segment in retained value after three years of
+                  ownership.
 
 
 
@@ -1937,8 +2174,10 @@
               <div class="card-body">
                 <h5 class="card-title">Explore the Redesigned 2022 Passport
                 </h5>
-                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an award recognizing vehicles predicted to lead their segment in retained value after three years of ownership.
-                  </p>
+                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an
+                  award recognizing vehicles predicted to lead their segment in retained value after three years of
+                  ownership.
+                </p>
 
                 <button class="btn-main btn-CTA--bluewhite">Learn More</button>
               </div>
@@ -1949,7 +2188,9 @@
               <img src="./img/discover/shop-discover-sensing-550x310.webp" class="img-fluid card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Honda Sensing®</h5>
-                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an award recognizing vehicles predicted to lead their segment in retained value after three years of ownership.
+                <p class="card-text">Honda was proudly named J.D. Power’s Highest Ranked Brand for Residual Value,* an
+                  award recognizing vehicles predicted to lead their segment in retained value after three years of
+                  ownership.
 
 
                 </p>
@@ -2345,7 +2586,7 @@
               <a href="">Buyer’s Guide</a>
 
             </li>
-    
+
           </ul>
         </div>
         <div class="link">

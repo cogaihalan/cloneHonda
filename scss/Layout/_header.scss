@@ -62,9 +62,13 @@
         &:hover{
             color: $blue-100;
         }
+        &:focus{
+            color: #333 !important;
+        }
         text-transform: uppercase;
     }
-   
+
+
 }
 
 @include responsive("large"){

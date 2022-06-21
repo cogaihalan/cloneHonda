@@ -88,10 +88,6 @@
     }
 }
 
-
-// .col-2-4{
-//     width: 20%;
-// }
 #pills-tab {
     justify-content: center;
     align-items: center;
@@ -212,3 +208,15 @@
     opacity: 0;
     transform: translateY(-10px);     
 }
+.dropdown{
+    &-toggle::after{
+        display: none;
+    }
+    &-item{
+
+    
+    &:focus, &:hover{
+        color: initial;
+        background-color: unset;
+    }
+}}
